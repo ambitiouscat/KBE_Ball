@@ -1,0 +1,611 @@
+  INFO root [2019-09-26 17:35:56,261] - 
+  INFO root [2019-09-26 17:35:56,261] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-26 17:35:56,262] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [2019-09-26 17:35:56,263] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [2019-09-26 17:35:56,263] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [2019-09-26 17:35:56,272] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:61650 )
+  INFO root [2019-09-26 17:35:56,272] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:61650, SOMAXCONN=511.
+  INFO root [2019-09-26 17:35:56,272] - server-configs:
+  INFO root [2019-09-26 17:35:56,272] - 	internalTcpAddr : 192.168.0.175:61650
+  INFO root [2019-09-26 17:35:56,272] - 	componentID : 4001
+  INFO root [2019-09-26 17:35:56,379] - Components::findLogger: found logger, addr:192.168.0.175:61641
+  INFO root [2019-09-26 17:35:56,379] - Components::addComponent: reset orderLog, uid=999!
+  INFO root [2019-09-26 17:35:56,379] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-09-26 17:35:56,383] - ---- dbmgr Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 11178A1C367680938C8E416B64844ACD. Config: Debug X86. Built: 14:21:01 Sep 18 2019. AppID: 4001. UID: 999. PID: 27520 ----
+  INFO root [2019-09-26 17:35:56,383] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [2019-09-26 17:35:56,383] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-26 17:35:56,383] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-09-26 17:35:56,558] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-09-26 17:35:56,559] - Script::install(): KBExtra is successfully!
+  INFO root [2019-09-26 17:35:56,688] - Dbmgr::initializeEnd: digest(363BB7D9C7C9010E5779213C13D38542)
+S_INFO root [2019-09-26 17:35:56,689] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-09-26 17:35:56,689] - TelnetServer server is running on port 32000
+  INFO root [2019-09-26 17:35:56,689] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2019-09-26 17:35:56,865] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+49261D26E524C499029B8659727165A36D99A41AD608E0BB723077589790B7C05657D1EA6796A9C673E6FF6AAECAFED9915C9E4EAA86E257A0C8F306214B7347C4E27507FADA3891C82500589AE2D1D68BB4A25D6D746256FD85801016D4F2923F9E409165DE39EDB3B3149B3255CE5D34975E6F96B1713C526894C661DF39A6
+ DEBUG root [2019-09-26 17:35:56,869] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:35:57,210] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+  INFO root [2019-09-26 17:35:57,211] - DBUtil::createInterface[0xb8f104]: interface=default, dbtype=mysql, ip=129.28.175.241, port=3306, currdatabase=kbe_centos, username=kbe_centos, connected=yes.
+
+  INFO root [2019-09-26 17:35:57,211] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-26 17:35:57,211] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2019-09-26 17:35:57,212] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:35:57,212] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:35:57,212] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:35:57,212] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:35:57,212] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+  INFO root [2019-09-26 17:35:57,352] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-26 17:35:57,459] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:35:57,459] - DBThread::onStart(): 0x4854f30!
+ DEBUG root [2019-09-26 17:35:57,475] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:35:57,475] - DBThread::onStart(): 0x4854d10!
+ DEBUG root [2019-09-26 17:35:57,483] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:35:57,483] - DBThread::onStart(): 0x4854408!
+ DEBUG root [2019-09-26 17:35:57,491] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:35:57,491] - DBThread::onStart(): 0x4854848!
+ DEBUG root [2019-09-26 17:35:57,502] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:35:57,502] - DBThread::onStart(): 0x4854490!
+  INFO root [2019-09-26 17:35:57,530] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:35:57,553] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:35:57,589] - DBInterfaceMysql::query: successfully!
+ ERROR root [2019-09-26 17:35:57,602] - KBEServerLogTableMysql::isShareDB: The database interface(default) is not shared, uid=24066! Check 'kbe_serverlog' table and 'kbengine[_defs].xml->dbmgr->shareDB'.
+ ERROR root [2019-09-26 17:35:57,603] - KBEServerLogTableMysql::isShareDB: The database interface(default) is not shared, uid=24066! Check 'kbe_serverlog' table and 'kbengine[_defs].xml->dbmgr->shareDB'.
+  INFO root [2019-09-26 17:35:57,635] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-09-26 17:35:57,659] - d:\work\svr\kbengine_bate\kbe\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.97 seconds
+ ERROR root [2019-09-26 17:35:57,659] - app::initialize(): initialization failed!
+ DEBUG root [2019-09-26 17:35:57,660] - ThreadPool::destroy(): starting size 5.
+  INFO root [2019-09-26 17:35:57,684] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:35:57,724] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-26 17:35:57,744] - DBThread::onEnd(): 0x4854848!
+ DEBUG root [2019-09-26 17:35:57,766] - DBThread::onEnd(): 0x4854490!
+  WARN root [2019-09-26 17:35:57,960] - ThreadPool::destroy(): waiting for thread(3)[0x4854d10,0x4854408,0x4854f30,], try=1
+ DEBUG root [2019-09-26 17:35:57,960] - DBThread::onEnd(): 0x4854d10!
+ DEBUG root [2019-09-26 17:35:57,960] - DBThread::onEnd(): 0x4854408!
+ DEBUG root [2019-09-26 17:35:57,960] - DBThread::onEnd(): 0x4854f30!
+ DEBUG root [2019-09-26 17:35:58,361] - TPThread::~TPThread(): 0x4854d10
+ DEBUG root [2019-09-26 17:35:58,361] - TPThread::~TPThread(): 0x4854408
+ DEBUG root [2019-09-26 17:35:58,361] - TPThread::~TPThread(): 0x4854f30
+ DEBUG root [2019-09-26 17:35:58,361] - TPThread::~TPThread(): 0x4854490
+ DEBUG root [2019-09-26 17:35:58,361] - TPThread::~TPThread(): 0x4854848
+  WARN root [2019-09-26 17:35:58,361] - ThreadPool::~ThreadPool(): Discarding 2 finished tasks.
+ DEBUG root [2019-09-26 17:35:58,361] - ThreadPool::destroy(): successfully!
+  INFO root [2019-09-26 17:35:58,369] - Script::uninstall(): is successfully!
+ DEBUG root [2019-09-26 17:35:58,369] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-09-26 17:35:58,670] - ThreadPool::destroy(): waiting for thread(2)[0x20435a8,0x20437b0,], try=1
+ DEBUG root [2019-09-26 17:35:59,072] - TPThread::~TPThread(): 0x20435a8
+ DEBUG root [2019-09-26 17:35:59,072] - TPThread::~TPThread(): 0x20437b0
+ DEBUG root [2019-09-26 17:35:59,072] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-09-26 17:35:59,072] - Bundle::destroyObjPool(): size 2.
+ DEBUG root [2019-09-26 17:35:59,072] - Channel::destroyObjPool(): size 14.
+ DEBUG root [2019-09-26 17:35:59,073] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:35:59,073] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [2019-09-26 17:35:59,073] - EndPoint::destroyObjPool(): size 14.
+ DEBUG root [2019-09-26 17:35:59,073] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:35:59,073] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:35:59,073] - UDPPacketReceiver::destroyObjPool(): size 0.
+  WARN root [2019-09-26 17:35:59,074] - Forwarding logs to logger[192.168.0.175:61641/0/0/0]...
+  INFO root [2019-09-26 17:36:05,890] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [2019-09-26 17:36:37,906] - 
+  INFO root [2019-09-26 17:36:37,906] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-26 17:36:37,908] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [2019-09-26 17:36:37,908] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [2019-09-26 17:36:37,908] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [2019-09-26 17:36:37,925] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:61714 )
+  INFO root [2019-09-26 17:36:37,925] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:61714, SOMAXCONN=511.
+  INFO root [2019-09-26 17:36:37,925] - server-configs:
+  INFO root [2019-09-26 17:36:37,925] - 	internalTcpAddr : 192.168.0.175:61714
+  INFO root [2019-09-26 17:36:37,925] - 	componentID : 4001
+  WARN root [2019-09-26 17:36:38,266] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20323, errorno=10048
+  INFO root [2019-09-26 17:36:38,269] - ---- dbmgr Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 11178A1C367680938C8E416B64844ACD. Config: Debug X86. Built: 14:21:01 Sep 18 2019. AppID: 4001. UID: 999. PID: 26992 ----
+  INFO root [2019-09-26 17:36:38,270] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [2019-09-26 17:36:38,270] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-26 17:36:38,270] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-09-26 17:36:38,452] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-09-26 17:36:38,452] - Script::install(): KBExtra is successfully!
+  INFO root [2019-09-26 17:36:38,539] - Dbmgr::initializeEnd: digest(363BB7D9C7C9010E5779213C13D38542)
+S_INFO root [2019-09-26 17:36:38,540] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-09-26 17:36:38,540] - TelnetServer server is running on port 32000
+  INFO root [2019-09-26 17:36:38,540] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2019-09-26 17:36:38,680] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+BE95D20D39F711825529E0C5557800A7DD6F4ACC353F2136D8A715F66793058CED8A01186E1B5C44D69AA8B529030A8942E307CC3218098F5E1CC38F6D3C2666303BEDDD3C9B73B8714040090C0A493A6E0357268187A21D9FECE3522012CC081771901D0324C4A827F77D05B974688355FFA7823EEFE55BF8F2EC7EDFFDFF4E
+ DEBUG root [2019-09-26 17:36:38,683] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:36:38,940] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+  INFO root [2019-09-26 17:36:38,941] - DBUtil::createInterface[0xafeccc]: interface=default, dbtype=mysql, ip=129.28.175.241, port=3306, currdatabase=kbe_centos, username=kbe_centos, connected=yes.
+
+  INFO root [2019-09-26 17:36:38,942] - ThreadPool::createThreadPool: creating  threadpool...
+ DEBUG root [2019-09-26 17:36:38,943] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:36:38,944] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:36:38,945] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:36:38,945] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+  INFO root [2019-09-26 17:36:38,946] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2019-09-26 17:36:38,947] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+  INFO root [2019-09-26 17:36:39,085] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-26 17:36:39,210] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:36:39,210] - DBThread::onStart(): 0xd42f88!
+ DEBUG root [2019-09-26 17:36:39,211] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:36:39,211] - DBThread::onStart(): 0xd42d68!
+ DEBUG root [2019-09-26 17:36:39,237] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:36:39,237] - DBThread::onStart(): 0xd42f00!
+ DEBUG root [2019-09-26 17:36:39,239] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:36:39,239] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:36:39,239] - DBThread::onStart(): 0xd433c8!
+ DEBUG root [2019-09-26 17:36:39,239] - DBThread::onStart(): 0xd43098!
+  INFO root [2019-09-26 17:36:39,320] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:36:39,323] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:36:39,323] - DBInterfaceMysql::query: successfully!
+ ERROR root [2019-09-26 17:36:39,324] - KBEServerLogTableMysql::isShareDB: The database interface(default) is not shared, uid=24066! Check 'kbe_serverlog' table and 'kbengine[_defs].xml->dbmgr->shareDB'.
+  INFO root [2019-09-26 17:36:39,365] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-09-26 17:36:39,380] - d:\work\svr\kbengine_bate\kbe\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.84 seconds
+ ERROR root [2019-09-26 17:36:39,380] - app::initialize(): initialization failed!
+ DEBUG root [2019-09-26 17:36:39,381] - ThreadPool::destroy(): starting size 5.
+ ERROR root [2019-09-26 17:36:39,403] - KBEServerLogTableMysql::isShareDB: The database interface(default) is not shared, uid=24066! Check 'kbe_serverlog' table and 'kbengine[_defs].xml->dbmgr->shareDB'.
+  INFO root [2019-09-26 17:36:39,408] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-26 17:36:39,436] - DBThread::onEnd(): 0xd42f88!
+ DEBUG root [2019-09-26 17:36:39,445] - DBThread::onEnd(): 0xd42f00!
+  INFO root [2019-09-26 17:36:39,450] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-26 17:36:39,493] - DBThread::onEnd(): 0xd433c8!
+  WARN root [2019-09-26 17:36:39,681] - ThreadPool::destroy(): waiting for thread(2)[0xd43098,0xd42d68,], try=1
+ DEBUG root [2019-09-26 17:36:39,681] - DBThread::onEnd(): 0xd42d68!
+ DEBUG root [2019-09-26 17:36:39,681] - DBThread::onEnd(): 0xd43098!
+ DEBUG root [2019-09-26 17:36:40,083] - TPThread::~TPThread(): 0xd43098
+ DEBUG root [2019-09-26 17:36:40,083] - TPThread::~TPThread(): 0xd42d68
+ DEBUG root [2019-09-26 17:36:40,083] - TPThread::~TPThread(): 0xd42f00
+ DEBUG root [2019-09-26 17:36:40,083] - TPThread::~TPThread(): 0xd433c8
+ DEBUG root [2019-09-26 17:36:40,083] - TPThread::~TPThread(): 0xd42f88
+  WARN root [2019-09-26 17:36:40,083] - ThreadPool::~ThreadPool(): Discarding 3 finished tasks.
+ DEBUG root [2019-09-26 17:36:40,084] - ThreadPool::destroy(): successfully!
+  INFO root [2019-09-26 17:36:40,091] - Script::uninstall(): is successfully!
+ DEBUG root [2019-09-26 17:36:40,091] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-09-26 17:36:40,392] - ThreadPool::destroy(): waiting for thread(2)[0xd0a340,0xd0a958,], try=1
+ DEBUG root [2019-09-26 17:36:40,794] - TPThread::~TPThread(): 0xd0a340
+ DEBUG root [2019-09-26 17:36:40,794] - TPThread::~TPThread(): 0xd0a958
+ DEBUG root [2019-09-26 17:36:40,794] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-09-26 17:36:40,794] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2019-09-26 17:36:40,794] - Channel::destroyObjPool(): size 15.
+ DEBUG root [2019-09-26 17:36:40,795] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:36:40,795] - UDPPacket::destroyObjPool(): size 15.
+ DEBUG root [2019-09-26 17:36:40,795] - EndPoint::destroyObjPool(): size 15.
+ DEBUG root [2019-09-26 17:36:40,795] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:36:40,795] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:36:40,795] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-09-26 17:36:47,598] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [2019-09-26 17:38:05,814] - 
+  INFO root [2019-09-26 17:38:05,814] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-26 17:38:05,816] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [2019-09-26 17:38:05,816] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [2019-09-26 17:38:05,816] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [2019-09-26 17:38:05,829] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:61829 )
+  INFO root [2019-09-26 17:38:05,829] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:61829, SOMAXCONN=511.
+  INFO root [2019-09-26 17:38:05,830] - server-configs:
+  INFO root [2019-09-26 17:38:05,830] - 	internalTcpAddr : 192.168.0.175:61829
+  INFO root [2019-09-26 17:38:05,830] - 	componentID : 4001
+  WARN root [2019-09-26 17:38:06,170] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20246, errorno=10048
+  INFO root [2019-09-26 17:38:06,173] - ---- dbmgr Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 11178A1C367680938C8E416B64844ACD. Config: Debug X86. Built: 14:21:01 Sep 18 2019. AppID: 4001. UID: 999. PID: 26072 ----
+  INFO root [2019-09-26 17:38:06,173] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [2019-09-26 17:38:06,173] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-26 17:38:06,174] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-09-26 17:38:06,360] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-09-26 17:38:06,360] - Script::install(): KBExtra is successfully!
+  INFO root [2019-09-26 17:38:06,441] - Dbmgr::initializeEnd: digest(363BB7D9C7C9010E5779213C13D38542)
+S_INFO root [2019-09-26 17:38:06,441] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-09-26 17:38:06,441] - TelnetServer server is running on port 32000
+  INFO root [2019-09-26 17:38:06,442] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2019-09-26 17:38:06,597] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+673DADB39285E49FD416A552CEFED0339F4DCCF49F691E916FBC6BF760FD31512172F56DFA3AF39B29685011A9AF2BAA1D67C41504513866753AA639E5E8311906952918C93837B25918E2FBFAC67E86EFED87DEEF8CCE8AF527CFDF1E89FF3DAA562F62D875374F4C65D734C6EC91726F1DE2A7A4B8AB3012C74F381306C729
+ DEBUG root [2019-09-26 17:38:06,600] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:38:06,835] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+  INFO root [2019-09-26 17:38:06,835] - DBUtil::createInterface[0x22ff0ac]: interface=default, dbtype=mysql, ip=129.28.175.241, port=3306, currdatabase=kbe_centos, username=kbe_centos, connected=yes.
+
+  INFO root [2019-09-26 17:38:06,835] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-26 17:38:06,836] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2019-09-26 17:38:06,836] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:38:06,836] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:38:06,836] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:38:06,836] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:38:06,836] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+  INFO root [2019-09-26 17:38:06,970] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-26 17:38:07,093] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:38:07,093] - DBThread::onStart(): 0x24c7340!
+ DEBUG root [2019-09-26 17:38:07,093] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:38:07,094] - DBThread::onStart(): 0x24c68a0!
+ DEBUG root [2019-09-26 17:38:07,100] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:38:07,100] - DBThread::onStart(): 0x24c72b8!
+ DEBUG root [2019-09-26 17:38:07,129] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:38:07,129] - DBThread::onStart(): 0x24c6f00!
+ DEBUG root [2019-09-26 17:38:07,134] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:38:07,134] - DBThread::onStart(): 0x24c65f8!
+  INFO root [2019-09-26 17:38:07,166] - DBInterfaceMysql::query: successfully!
+ ERROR root [2019-09-26 17:38:07,212] - KBEServerLogTableMysql::isShareDB: The database interface(default) is not shared, uid=24066! Check 'kbe_serverlog' table and 'kbengine[_defs].xml->dbmgr->shareDB'.
+  INFO root [2019-09-26 17:38:07,213] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:38:07,218] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:38:07,261] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-09-26 17:38:07,273] - d:\work\svr\kbengine_bate\kbe\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.83 seconds
+ ERROR root [2019-09-26 17:38:07,273] - app::initialize(): initialization failed!
+ DEBUG root [2019-09-26 17:38:07,274] - ThreadPool::destroy(): starting size 5.
+ ERROR root [2019-09-26 17:38:07,298] - KBEServerLogTableMysql::isShareDB: The database interface(default) is not shared, uid=24066! Check 'kbe_serverlog' table and 'kbengine[_defs].xml->dbmgr->shareDB'.
+  INFO root [2019-09-26 17:38:07,305] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-26 17:38:07,314] - DBThread::onEnd(): 0x24c7340!
+ DEBUG root [2019-09-26 17:38:07,341] - DBThread::onEnd(): 0x24c6f00!
+  INFO root [2019-09-26 17:38:07,348] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-26 17:38:07,390] - DBThread::onEnd(): 0x24c65f8!
+  WARN root [2019-09-26 17:38:07,575] - ThreadPool::destroy(): waiting for thread(2)[0x24c68a0,0x24c72b8,], try=1
+ DEBUG root [2019-09-26 17:38:07,575] - DBThread::onEnd(): 0x24c68a0!
+ DEBUG root [2019-09-26 17:38:07,575] - DBThread::onEnd(): 0x24c72b8!
+ DEBUG root [2019-09-26 17:38:07,977] - TPThread::~TPThread(): 0x24c68a0
+ DEBUG root [2019-09-26 17:38:07,977] - TPThread::~TPThread(): 0x24c72b8
+ DEBUG root [2019-09-26 17:38:07,977] - TPThread::~TPThread(): 0x24c6f00
+ DEBUG root [2019-09-26 17:38:07,977] - TPThread::~TPThread(): 0x24c65f8
+ DEBUG root [2019-09-26 17:38:07,977] - TPThread::~TPThread(): 0x24c7340
+  WARN root [2019-09-26 17:38:07,977] - ThreadPool::~ThreadPool(): Discarding 3 finished tasks.
+ DEBUG root [2019-09-26 17:38:07,977] - ThreadPool::destroy(): successfully!
+  INFO root [2019-09-26 17:38:07,988] - Script::uninstall(): is successfully!
+ DEBUG root [2019-09-26 17:38:07,989] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-09-26 17:38:08,290] - ThreadPool::destroy(): waiting for thread(2)[0x24af9b8,0x24afc90,], try=1
+ DEBUG root [2019-09-26 17:38:08,692] - TPThread::~TPThread(): 0x24af9b8
+ DEBUG root [2019-09-26 17:38:08,692] - TPThread::~TPThread(): 0x24afc90
+ DEBUG root [2019-09-26 17:38:08,692] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-09-26 17:38:08,692] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2019-09-26 17:38:08,692] - Channel::destroyObjPool(): size 15.
+ DEBUG root [2019-09-26 17:38:08,693] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:38:08,693] - UDPPacket::destroyObjPool(): size 15.
+ DEBUG root [2019-09-26 17:38:08,693] - EndPoint::destroyObjPool(): size 15.
+ DEBUG root [2019-09-26 17:38:08,693] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:38:08,693] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:38:08,693] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-09-26 17:38:15,496] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [2019-09-26 17:41:03,941] - 
+  INFO root [2019-09-26 17:41:03,941] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-26 17:41:03,943] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [2019-09-26 17:41:03,943] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [2019-09-26 17:41:03,943] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [2019-09-26 17:41:03,958] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:62052 )
+  INFO root [2019-09-26 17:41:03,958] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:62052, SOMAXCONN=511.
+  INFO root [2019-09-26 17:41:03,958] - server-configs:
+  INFO root [2019-09-26 17:41:03,958] - 	internalTcpAddr : 192.168.0.175:62052
+  INFO root [2019-09-26 17:41:03,958] - 	componentID : 4001
+  WARN root [2019-09-26 17:41:04,298] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20103, errorno=10048
+  INFO root [2019-09-26 17:41:04,303] - ---- dbmgr Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 11178A1C367680938C8E416B64844ACD. Config: Debug X86. Built: 14:21:01 Sep 18 2019. AppID: 4001. UID: 999. PID: 9020 ----
+  INFO root [2019-09-26 17:41:04,303] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [2019-09-26 17:41:04,304] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-26 17:41:04,304] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-09-26 17:41:04,500] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-09-26 17:41:04,500] - Script::install(): KBExtra is successfully!
+  INFO root [2019-09-26 17:41:04,587] - Dbmgr::initializeEnd: digest(363BB7D9C7C9010E5779213C13D38542)
+S_INFO root [2019-09-26 17:41:04,587] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-09-26 17:41:04,587] - TelnetServer server is running on port 32000
+  INFO root [2019-09-26 17:41:04,588] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2019-09-26 17:41:04,735] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+65FD92AF74E9D3FB0F2E037F8F1B4BEE87C8F7ED65471D049899A818BD20D1250308B6763E3F2AD4CB32C5603A5A98A3FE3C045FBB79877F1D3227720C1E15C5BD57B37C126E57DFF8390DBA94FCAA297D24BC49FD9E35DBFABA220583199D6AFB79847C748D211BD55DD316D4376DF28439D4C3AE53038D279371E04BB01C50
+ DEBUG root [2019-09-26 17:41:04,739] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:41:05,032] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+  INFO root [2019-09-26 17:41:05,032] - DBUtil::createInterface[0xdbeb5c]: interface=default, dbtype=mysql, ip=129.28.175.241, port=3306, currdatabase=kbe_centos, username=kbe_centos, connected=yes.
+
+  INFO root [2019-09-26 17:41:05,032] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-26 17:41:05,033] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2019-09-26 17:41:05,033] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:41:05,033] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:41:05,033] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:41:05,033] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:41:05,033] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+  INFO root [2019-09-26 17:41:05,176] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-26 17:41:05,267] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:41:05,268] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:41:05,268] - DBThread::onStart(): 0x2452b80!
+ DEBUG root [2019-09-26 17:41:05,268] - DBThread::onStart(): 0x2452630!
+ DEBUG root [2019-09-26 17:41:05,323] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:41:05,323] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:41:05,323] - DBThread::onStart(): 0x2452a70!
+ DEBUG root [2019-09-26 17:41:05,323] - DBThread::onStart(): 0x2452388!
+ DEBUG root [2019-09-26 17:41:05,331] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:41:05,332] - DBThread::onStart(): 0x2452740!
+  INFO root [2019-09-26 17:41:05,335] - DBInterfaceMysql::query: successfully!
+ ERROR root [2019-09-26 17:41:05,368] - KBEServerLogTableMysql::isShareDB: The database interface(default) is not shared, uid=24066! Check 'kbe_serverlog' table and 'kbengine[_defs].xml->dbmgr->shareDB'.
+  INFO root [2019-09-26 17:41:05,370] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:41:05,403] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:41:05,406] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-09-26 17:41:05,416] - d:\work\svr\kbengine_bate\kbe\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.83 seconds
+ ERROR root [2019-09-26 17:41:05,416] - app::initialize(): initialization failed!
+ DEBUG root [2019-09-26 17:41:05,417] - ThreadPool::destroy(): starting size 5.
+  INFO root [2019-09-26 17:41:05,418] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:41:05,437] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-26 17:41:05,461] - DBThread::onEnd(): 0x2452740!
+ DEBUG root [2019-09-26 17:41:05,470] - DBThread::onEnd(): 0x2452b80!
+ ERROR root [2019-09-26 17:41:05,489] - KBEServerLogTableMysql::isShareDB: The database interface(default) is not shared, uid=24066! Check 'kbe_serverlog' table and 'kbengine[_defs].xml->dbmgr->shareDB'.
+ DEBUG root [2019-09-26 17:41:05,532] - DBThread::onEnd(): 0x2452a70!
+ DEBUG root [2019-09-26 17:41:05,573] - DBThread::onEnd(): 0x2452388!
+  WARN root [2019-09-26 17:41:05,718] - ThreadPool::destroy(): waiting for thread(1)[0x2452630,], try=1
+ DEBUG root [2019-09-26 17:41:05,718] - DBThread::onEnd(): 0x2452630!
+ DEBUG root [2019-09-26 17:41:06,120] - TPThread::~TPThread(): 0x2452740
+ DEBUG root [2019-09-26 17:41:06,120] - TPThread::~TPThread(): 0x2452630
+ DEBUG root [2019-09-26 17:41:06,120] - TPThread::~TPThread(): 0x2452a70
+ DEBUG root [2019-09-26 17:41:06,120] - TPThread::~TPThread(): 0x2452b80
+ DEBUG root [2019-09-26 17:41:06,120] - TPThread::~TPThread(): 0x2452388
+  WARN root [2019-09-26 17:41:06,120] - ThreadPool::~ThreadPool(): Discarding 4 finished tasks.
+ DEBUG root [2019-09-26 17:41:06,121] - ThreadPool::destroy(): successfully!
+  INFO root [2019-09-26 17:41:06,126] - Script::uninstall(): is successfully!
+ DEBUG root [2019-09-26 17:41:06,127] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-09-26 17:41:06,428] - ThreadPool::destroy(): waiting for thread(2)[0x2451e50,0x2451de8,], try=1
+ DEBUG root [2019-09-26 17:41:06,830] - TPThread::~TPThread(): 0x2451e50
+ DEBUG root [2019-09-26 17:41:06,830] - TPThread::~TPThread(): 0x2451de8
+ DEBUG root [2019-09-26 17:41:06,830] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-09-26 17:41:06,830] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2019-09-26 17:41:06,830] - Channel::destroyObjPool(): size 15.
+ DEBUG root [2019-09-26 17:41:06,830] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:41:06,831] - UDPPacket::destroyObjPool(): size 15.
+ DEBUG root [2019-09-26 17:41:06,831] - EndPoint::destroyObjPool(): size 15.
+ DEBUG root [2019-09-26 17:41:06,831] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:41:06,831] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:41:06,831] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-09-26 17:41:13,634] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [2019-09-26 17:41:21,209] - 
+  INFO root [2019-09-26 17:41:21,209] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-26 17:41:21,210] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [2019-09-26 17:41:21,210] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [2019-09-26 17:41:21,211] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [2019-09-26 17:41:21,223] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:62087 )
+  INFO root [2019-09-26 17:41:21,224] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:62087, SOMAXCONN=511.
+  INFO root [2019-09-26 17:41:21,224] - server-configs:
+  INFO root [2019-09-26 17:41:21,224] - 	internalTcpAddr : 192.168.0.175:62087
+  INFO root [2019-09-26 17:41:21,224] - 	componentID : 4001
+  WARN root [2019-09-26 17:41:21,565] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20947, errorno=10048
+  INFO root [2019-09-26 17:41:21,568] - ---- dbmgr Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 11178A1C367680938C8E416B64844ACD. Config: Debug X86. Built: 14:21:01 Sep 18 2019. AppID: 4001. UID: 999. PID: 4872 ----
+  INFO root [2019-09-26 17:41:21,568] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [2019-09-26 17:41:21,568] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-26 17:41:21,569] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-09-26 17:41:21,754] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-09-26 17:41:21,754] - Script::install(): KBExtra is successfully!
+  INFO root [2019-09-26 17:41:21,838] - Dbmgr::initializeEnd: digest(363BB7D9C7C9010E5779213C13D38542)
+S_INFO root [2019-09-26 17:41:21,838] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-09-26 17:41:21,838] - TelnetServer server is running on port 32000
+  INFO root [2019-09-26 17:41:21,839] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2019-09-26 17:41:21,999] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+435EA23C3F822A99E83BEEBEF37A80E529ABB23DAB0A3B1285C0C88BD1605841A6CBF333CD1A51C11E4BA8D1E2514A8E002DD428E3483DA92776FBD3FDB72587CAEF2DA113D7DAFF4A2333710AE96BC20177918CBF31E6D59DCD8EF14AB444F46BF2C8B669108E92035226775FAE05C23A1C979FC0A4853E3CF6CEA881CA3E37
+ DEBUG root [2019-09-26 17:41:22,002] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:41:22,258] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+  INFO root [2019-09-26 17:41:22,258] - DBUtil::createInterface[0x59edd0]: interface=default, dbtype=mysql, ip=129.28.175.241, port=3306, currdatabase=kbe_centos, username=kbe_centos, connected=yes.
+
+  INFO root [2019-09-26 17:41:22,258] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-26 17:41:22,258] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2019-09-26 17:41:22,258] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:41:22,258] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:41:22,259] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:41:22,259] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:41:22,259] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+  INFO root [2019-09-26 17:41:22,395] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-26 17:41:22,522] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:41:22,522] - DBThread::onStart(): 0xc39ea8!
+ DEBUG root [2019-09-26 17:41:22,533] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:41:22,533] - DBThread::onStart(): 0xc3a040!
+ DEBUG root [2019-09-26 17:41:22,543] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:41:22,543] - DBThread::onStart(): 0xc39af0!
+ DEBUG root [2019-09-26 17:41:22,565] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:41:22,566] - DBThread::onStart(): 0xc398d0!
+ DEBUG root [2019-09-26 17:41:22,569] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:41:22,569] - DBThread::onStart(): 0xc39a68!
+  INFO root [2019-09-26 17:41:22,597] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:41:22,625] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:41:22,657] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:41:22,666] - DBInterfaceMysql::query: successfully!
+ ERROR root [2019-09-26 17:41:22,698] - KBEServerLogTableMysql::isShareDB: The database interface(default) is not shared, uid=24066! Check 'kbe_serverlog' table and 'kbengine[_defs].xml->dbmgr->shareDB'.
+  INFO root [2019-09-26 17:41:22,708] - DBInterfaceMysql::query: successfully!
+ ERROR root [2019-09-26 17:41:22,747] - KBEServerLogTableMysql::isShareDB: The database interface(default) is not shared, uid=24066! Check 'kbe_serverlog' table and 'kbengine[_defs].xml->dbmgr->shareDB'.
+  INFO root [2019-09-26 17:41:22,749] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-09-26 17:41:22,755] - d:\work\svr\kbengine_bate\kbe\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.92 seconds
+ ERROR root [2019-09-26 17:41:22,755] - app::initialize(): initialization failed!
+ DEBUG root [2019-09-26 17:41:22,755] - ThreadPool::destroy(): starting size 5.
+ DEBUG root [2019-09-26 17:41:22,770] - DBThread::onEnd(): 0xc3a040!
+ DEBUG root [2019-09-26 17:41:22,791] - DBThread::onEnd(): 0xc39af0!
+ DEBUG root [2019-09-26 17:41:22,792] - DBThread::onEnd(): 0xc39a68!
+  WARN root [2019-09-26 17:41:23,056] - ThreadPool::destroy(): waiting for thread(2)[0xc39ea8,0xc398d0,], try=1
+ DEBUG root [2019-09-26 17:41:23,056] - DBThread::onEnd(): 0xc398d0!
+ DEBUG root [2019-09-26 17:41:23,056] - DBThread::onEnd(): 0xc39ea8!
+ DEBUG root [2019-09-26 17:41:23,458] - TPThread::~TPThread(): 0xc39ea8
+ DEBUG root [2019-09-26 17:41:23,458] - TPThread::~TPThread(): 0xc398d0
+ DEBUG root [2019-09-26 17:41:23,460] - TPThread::~TPThread(): 0xc39a68
+ DEBUG root [2019-09-26 17:41:23,460] - TPThread::~TPThread(): 0xc39af0
+ DEBUG root [2019-09-26 17:41:23,460] - TPThread::~TPThread(): 0xc3a040
+  WARN root [2019-09-26 17:41:23,461] - ThreadPool::~ThreadPool(): Discarding 3 finished tasks.
+ DEBUG root [2019-09-26 17:41:23,462] - ThreadPool::destroy(): successfully!
+  INFO root [2019-09-26 17:41:23,468] - Script::uninstall(): is successfully!
+ DEBUG root [2019-09-26 17:41:23,468] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-09-26 17:41:23,770] - ThreadPool::destroy(): waiting for thread(2)[0xc22928,0xc226b8,], try=1
+ DEBUG root [2019-09-26 17:41:24,171] - TPThread::~TPThread(): 0xc22928
+ DEBUG root [2019-09-26 17:41:24,171] - TPThread::~TPThread(): 0xc226b8
+ DEBUG root [2019-09-26 17:41:24,171] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-09-26 17:41:24,171] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2019-09-26 17:41:24,171] - Channel::destroyObjPool(): size 15.
+ DEBUG root [2019-09-26 17:41:24,172] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:41:24,172] - UDPPacket::destroyObjPool(): size 15.
+ DEBUG root [2019-09-26 17:41:24,172] - EndPoint::destroyObjPool(): size 15.
+ DEBUG root [2019-09-26 17:41:24,172] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:41:24,172] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:41:24,172] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-09-26 17:41:30,975] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [2019-09-26 17:41:38,679] - 
+  INFO root [2019-09-26 17:41:38,680] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-26 17:41:38,681] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [2019-09-26 17:41:38,682] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [2019-09-26 17:41:38,682] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [2019-09-26 17:41:38,695] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:62116 )
+  INFO root [2019-09-26 17:41:38,696] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:62116, SOMAXCONN=511.
+  INFO root [2019-09-26 17:41:38,696] - server-configs:
+  INFO root [2019-09-26 17:41:38,696] - 	internalTcpAddr : 192.168.0.175:62116
+  INFO root [2019-09-26 17:41:38,696] - 	componentID : 4001
+  INFO root [2019-09-26 17:41:40,201] - ---- dbmgr Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 11178A1C367680938C8E416B64844ACD. Config: Debug X86. Built: 14:21:01 Sep 18 2019. AppID: 4001. UID: 999. PID: 26036 ----
+  INFO root [2019-09-26 17:41:40,202] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [2019-09-26 17:41:40,202] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-26 17:41:40,202] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-09-26 17:41:40,378] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-09-26 17:41:40,378] - Script::install(): KBExtra is successfully!
+  INFO root [2019-09-26 17:41:40,458] - Dbmgr::initializeEnd: digest(363BB7D9C7C9010E5779213C13D38542)
+S_INFO root [2019-09-26 17:41:40,458] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-09-26 17:41:40,458] - TelnetServer server is running on port 32000
+  INFO root [2019-09-26 17:41:40,458] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2019-09-26 17:41:40,627] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+1A21DD03584BC92AEBBF52F18DFD21D89347D5ADAFC467B9362B0B61B76E1C5EC78FBF4B0B0B0B31EEC50D18316FE880F3DA805CB76DC1B2B0ABB2FF55D3D02767E20EF2F4AC5F0E2BFD9D971177AD74310C965EC7ED526FA2D3FEE2DC11014A552FFE92B16C6EB4E3B70BA4E48FDA0DC34675337A710E7D02361FB74E432A62
+ DEBUG root [2019-09-26 17:41:40,629] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:41:40,918] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+  INFO root [2019-09-26 17:41:40,918] - DBUtil::createInterface[0x8ff1d4]: interface=default, dbtype=mysql, ip=129.28.175.241, port=3306, currdatabase=kbe_centos, username=kbe_centos, connected=yes.
+
+  INFO root [2019-09-26 17:41:40,919] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-26 17:41:40,919] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2019-09-26 17:41:40,919] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:41:40,919] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:41:40,919] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:41:40,919] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:41:40,920] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+  INFO root [2019-09-26 17:41:41,061] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-26 17:41:41,153] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:41:41,153] - DBThread::onStart(): 0x292a88!
+ DEBUG root [2019-09-26 17:41:41,176] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:41:41,176] - DBThread::onStart(): 0x293418!
+ DEBUG root [2019-09-26 17:41:41,176] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:41:41,177] - DBThread::onStart(): 0x292e40!
+ DEBUG root [2019-09-26 17:41:41,190] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:41:41,190] - DBThread::onStart(): 0x292ec8!
+ DEBUG root [2019-09-26 17:41:41,198] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:41:41,199] - DBThread::onStart(): 0x292868!
+  INFO root [2019-09-26 17:41:41,218] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:41:41,250] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:41:41,280] - DBInterfaceMysql::query: successfully!
+ ERROR root [2019-09-26 17:41:41,286] - KBEServerLogTableMysql::isShareDB: The database interface(default) is not shared, uid=24066! Check 'kbe_serverlog' table and 'kbengine[_defs].xml->dbmgr->shareDB'.
+ ERROR root [2019-09-26 17:41:41,286] - KBEServerLogTableMysql::isShareDB: The database interface(default) is not shared, uid=24066! Check 'kbe_serverlog' table and 'kbengine[_defs].xml->dbmgr->shareDB'.
+  INFO root [2019-09-26 17:41:41,287] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:41:41,324] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-09-26 17:41:41,333] - d:\work\svr\kbengine_bate\kbe\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.87 seconds
+ ERROR root [2019-09-26 17:41:41,333] - app::initialize(): initialization failed!
+ DEBUG root [2019-09-26 17:41:41,334] - ThreadPool::destroy(): starting size 5.
+  INFO root [2019-09-26 17:41:41,361] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-26 17:41:41,396] - DBThread::onEnd(): 0x292e40!
+ DEBUG root [2019-09-26 17:41:41,422] - DBThread::onEnd(): 0x292ec8!
+  WARN root [2019-09-26 17:41:41,635] - ThreadPool::destroy(): waiting for thread(3)[0x292868,0x293418,0x292a88,], try=1
+ DEBUG root [2019-09-26 17:41:41,635] - DBThread::onEnd(): 0x293418!
+ DEBUG root [2019-09-26 17:41:41,635] - DBThread::onEnd(): 0x292868!
+ DEBUG root [2019-09-26 17:41:41,635] - DBThread::onEnd(): 0x292a88!
+ DEBUG root [2019-09-26 17:41:42,037] - TPThread::~TPThread(): 0x292868
+ DEBUG root [2019-09-26 17:41:42,038] - TPThread::~TPThread(): 0x293418
+ DEBUG root [2019-09-26 17:41:42,039] - TPThread::~TPThread(): 0x292a88
+ DEBUG root [2019-09-26 17:41:42,041] - TPThread::~TPThread(): 0x292e40
+ DEBUG root [2019-09-26 17:41:42,042] - TPThread::~TPThread(): 0x292ec8
+  WARN root [2019-09-26 17:41:42,043] - ThreadPool::~ThreadPool(): Discarding 2 finished tasks.
+ DEBUG root [2019-09-26 17:41:42,044] - ThreadPool::destroy(): successfully!
+  INFO root [2019-09-26 17:41:42,060] - Script::uninstall(): is successfully!
+ DEBUG root [2019-09-26 17:41:42,060] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-09-26 17:41:42,361] - ThreadPool::destroy(): waiting for thread(2)[0x293fd8,0x293750,], try=1
+ DEBUG root [2019-09-26 17:41:42,763] - TPThread::~TPThread(): 0x293fd8
+ DEBUG root [2019-09-26 17:41:42,763] - TPThread::~TPThread(): 0x293750
+ DEBUG root [2019-09-26 17:41:42,763] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-09-26 17:41:42,763] - Bundle::destroyObjPool(): size 5.
+ DEBUG root [2019-09-26 17:41:42,763] - Channel::destroyObjPool(): size 15.
+ DEBUG root [2019-09-26 17:41:42,763] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:41:42,764] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [2019-09-26 17:41:42,764] - EndPoint::destroyObjPool(): size 15.
+ DEBUG root [2019-09-26 17:41:42,764] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:41:42,764] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:41:42,764] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-09-26 17:41:49,566] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [2019-09-26 17:43:48,059] - 
+  INFO root [2019-09-26 17:43:48,059] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-26 17:43:48,061] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [2019-09-26 17:43:48,061] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [2019-09-26 17:43:48,061] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [2019-09-26 17:43:48,077] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:62342 )
+  INFO root [2019-09-26 17:43:48,077] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:62342, SOMAXCONN=511.
+  INFO root [2019-09-26 17:43:48,077] - server-configs:
+  INFO root [2019-09-26 17:43:48,078] - 	internalTcpAddr : 192.168.0.175:62342
+  INFO root [2019-09-26 17:43:48,078] - 	componentID : 4001
+  WARN root [2019-09-26 17:43:48,417] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20010, errorno=10048
+  INFO root [2019-09-26 17:43:48,420] - ---- dbmgr Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 11178A1C367680938C8E416B64844ACD. Config: Debug X86. Built: 14:21:01 Sep 18 2019. AppID: 4001. UID: 999. PID: 10132 ----
+  INFO root [2019-09-26 17:43:48,420] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [2019-09-26 17:43:48,421] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-26 17:43:48,421] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-09-26 17:43:48,606] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-09-26 17:43:48,606] - Script::install(): KBExtra is successfully!
+  INFO root [2019-09-26 17:43:48,695] - Dbmgr::initializeEnd: digest(363BB7D9C7C9010E5779213C13D38542)
+S_INFO root [2019-09-26 17:43:48,695] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-09-26 17:43:48,696] - TelnetServer server is running on port 32000
+  INFO root [2019-09-26 17:43:48,696] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2019-09-26 17:43:48,847] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+76C7B2BE2CAF9DD8DA0A70D11384FB64B60EABCAFCACDEA35A41296EC0936DADFAE4CFD1645CF43A96376A9533B29A76945DB67798CC3044FC8245766901FED9249C9D4E65DC7BA579BA16A9564BF46A87E6F0FC204C90B82E5E6B43F4E68B50E022C317F338C60EF6F4351FEAD20B13550F9DF690784756AFB239B39C51D980
+ DEBUG root [2019-09-26 17:43:48,850] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:43:49,117] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+  INFO root [2019-09-26 17:43:49,117] - DBUtil::createInterface[0xbaf0dc]: interface=default, dbtype=mysql, ip=129.28.175.241, port=3306, currdatabase=kbe_centos, username=kbe_centos, connected=yes.
+
+  INFO root [2019-09-26 17:43:49,117] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-26 17:43:49,117] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2019-09-26 17:43:49,118] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:43:49,118] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:43:49,118] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:43:49,118] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+ DEBUG root [2019-09-26 17:43:49,118] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+  INFO root [2019-09-26 17:43:49,257] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-26 17:43:49,375] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:43:49,376] - DBThread::onStart(): 0x253dc8!
+ DEBUG root [2019-09-26 17:43:49,396] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:43:49,396] - DBThread::onStart(): 0x2536e0!
+ DEBUG root [2019-09-26 17:43:49,410] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:43:49,411] - DBThread::onStart(): 0x253a10!
+ DEBUG root [2019-09-26 17:43:49,422] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:43:49,422] - DBThread::onStart(): 0x2543a0!
+ DEBUG root [2019-09-26 17:43:49,422] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+ DEBUG root [2019-09-26 17:43:49,422] - DBThread::onStart(): 0x253f60!
+  INFO root [2019-09-26 17:43:49,448] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:43:49,475] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-26 17:43:49,510] - DBInterfaceMysql::query: successfully!
+ ERROR root [2019-09-26 17:43:49,522] - KBEServerLogTableMysql::isShareDB: The database interface(default) is not shared, uid=24066! Check 'kbe_serverlog' table and 'kbengine[_defs].xml->dbmgr->shareDB'.
+  INFO root [2019-09-26 17:43:49,554] - DBInterfaceMysql::query: successfully!
+ ERROR root [2019-09-26 17:43:49,555] - KBEServerLogTableMysql::isShareDB: The database interface(default) is not shared, uid=24066! Check 'kbe_serverlog' table and 'kbengine[_defs].xml->dbmgr->shareDB'.
+  WARN root [2019-09-26 17:43:49,572] - d:\work\svr\kbengine_bate\kbe\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.88 seconds
+ ERROR root [2019-09-26 17:43:49,572] - app::initialize(): initialization failed!
+ DEBUG root [2019-09-26 17:43:49,572] - ThreadPool::destroy(): starting size 5.
+  INFO root [2019-09-26 17:43:49,599] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-26 17:43:49,599] - DBThread::onEnd(): 0x253f60!
+  INFO root [2019-09-26 17:43:49,643] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-26 17:43:49,663] - DBThread::onEnd(): 0x253a10!
+ DEBUG root [2019-09-26 17:43:49,686] - DBThread::onEnd(): 0x2543a0!
+  WARN root [2019-09-26 17:43:49,874] - ThreadPool::destroy(): waiting for thread(2)[0x2536e0,0x253dc8,], try=1
+ DEBUG root [2019-09-26 17:43:49,874] - DBThread::onEnd(): 0x253dc8!
+ DEBUG root [2019-09-26 17:43:49,874] - DBThread::onEnd(): 0x2536e0!
+ DEBUG root [2019-09-26 17:43:50,276] - TPThread::~TPThread(): 0x2536e0
+ DEBUG root [2019-09-26 17:43:50,458] - TPThread::~TPThread(): 0x253f60
+ DEBUG root [2019-09-26 17:43:50,458] - TPThread::~TPThread(): 0x253dc8
+ DEBUG root [2019-09-26 17:43:50,458] - TPThread::~TPThread(): 0x2543a0
+ DEBUG root [2019-09-26 17:43:50,459] - TPThread::~TPThread(): 0x253a10
+  WARN root [2019-09-26 17:43:50,459] - ThreadPool::~ThreadPool(): Discarding 3 finished tasks.
+ DEBUG root [2019-09-26 17:43:50,459] - ThreadPool::destroy(): successfully!
+  INFO root [2019-09-26 17:43:50,465] - Script::uninstall(): is successfully!
+ DEBUG root [2019-09-26 17:43:50,465] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-09-26 17:43:50,767] - ThreadPool::destroy(): waiting for thread(2)[0x252c50,0x252a48,], try=1
+ DEBUG root [2019-09-26 17:43:51,169] - TPThread::~TPThread(): 0x252c50
+ DEBUG root [2019-09-26 17:43:51,170] - TPThread::~TPThread(): 0x252a48
+ DEBUG root [2019-09-26 17:43:51,170] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-09-26 17:43:51,171] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2019-09-26 17:43:51,172] - Channel::destroyObjPool(): size 15.
+ DEBUG root [2019-09-26 17:43:51,173] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:43:51,174] - UDPPacket::destroyObjPool(): size 15.
+ DEBUG root [2019-09-26 17:43:51,174] - EndPoint::destroyObjPool(): size 15.
+ DEBUG root [2019-09-26 17:43:51,174] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:43:51,175] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-09-26 17:43:51,175] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-09-26 17:43:57,978] - EventDispatcher()::~EventDispatcher: Num timers = 1

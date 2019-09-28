@@ -1,0 +1,370 @@
+  INFO root [2019-09-27 17:08:20,996] - 
+  INFO root [2019-09-27 17:08:20,996] - 
+  INFO root [2019-09-27 17:08:20,997] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-27 17:08:20,997] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-27 17:08:20,997] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [2019-09-27 17:08:20,997] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [2019-09-27 17:08:20,997] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [2019-09-27 17:08:20,997] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [2019-09-27 17:08:20,998] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [2019-09-27 17:08:20,998] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [2019-09-27 17:08:21,008] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:58127 )
+  INFO root [2019-09-27 17:08:21,008] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:58126 )
+  INFO root [2019-09-27 17:08:21,009] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:58127, SOMAXCONN=511.
+  INFO root [2019-09-27 17:08:21,009] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:58126, SOMAXCONN=511.
+  INFO root [2019-09-27 17:08:21,012] - ---- tool Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: ACE55A2934030C0DA3446BA0E5FAB5DD. Config: Debug X86. Built: 14:20:56 Sep 18 2019. AppID  INFO root [2019-09-27 17:08:21,012] - ---- tool Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: ACE55A2934030C0DA3446BA0E5FAB5DD. Config: Debug X86. Built: 14:20:56 Sep 18 2019. AppID: 18446744073709551615. UID: 999. PID: 5652 ----
+: 18446744073709551615. UID: 999. PID: 31092 ----
+  INFO root [2019-09-27 17:08:21,012] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [2019-09-27 17:08:21,012] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [2019-09-27 17:08:21,012] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-27 17:08:21,012] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-27 17:08:21,012] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-09-27 17:08:21,012] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-09-27 17:08:21,193] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-09-27 17:08:21,193] - Script::install(): KBExtra is successfully!
+  INFO root [2019-09-27 17:08:21,197] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-09-27 17:08:21,197] - Script::install(): KBExtra is successfully!
+ ERROR root [2019-09-27 17:08:21,466] - DataTypes::getDataType:not found type ENTITY.
+ ERROR root [2019-09-27 17:08:21,466] - EntityDef::loadDefBaseMethods: dataType[ENTITY] not found, in createCell!
+ ERROR root [2019-09-27 17:08:21,467] - EntityDef::loadAllDefDescription:loadDefBaseMethods[Avatar] is failed!
+ ERROR root [2019-09-27 17:08:21,467] - EntityDef::loadDefInfo: failed to loadAllDefDescription(), entity:Avatar
+ ERROR root [2019-09-27 17:08:21,467] - EntityDef::initialize: failed to load entity(Avatar) module!
+ ERROR root [2019-09-27 17:08:21,468] - app::initialize(): EntityDef initialization failed!
+  INFO root [2019-09-27 17:08:21,472] - Script::uninstall(): is successfully!
+ DEBUG root [2019-09-27 17:08:21,472] - ThreadPool::destroy(): starting size 2.
+ ERROR root [2019-09-27 17:08:21,475] - DataTypes::getDataType:not found type ENTITY.
+ ERROR root [2019-09-27 17:08:21,475] - EntityDef::loadDefBaseMethods: dataType[ENTITY] not found, in createCell!
+ ERROR root [2019-09-27 17:08:21,475] - EntityDef::loadAllDefDescription:loadDefBaseMethods[Avatar] is failed!
+ ERROR root [2019-09-27 17:08:21,476] - EntityDef::loadDefInfo: failed to loadAllDefDescription(), entity:Avatar
+ ERROR root [2019-09-27 17:08:21,476] - EntityDef::initialize: failed to load entity(Avatar) module!
+ ERROR root [2019-09-27 17:08:21,476] - app::initialize(): EntityDef initialization failed!
+  INFO root [2019-09-27 17:08:21,481] - Script::uninstall(): is successfully!
+ DEBUG root [2019-09-27 17:08:21,481] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-09-27 17:08:21,773] - ThreadPool::destroy(): waiting for thread(2)[0x1897a60,0x1897b30,], try=1
+  WARN root [2019-09-27 17:08:21,782] - ThreadPool::destroy(): waiting for thread(2)[0x1845b98,0x1845da0,], try=1
+ DEBUG root [2019-09-27 17:08:22,176] - TPThread::~TPThread(): 0x1897a60
+ DEBUG root [2019-09-27 17:08:22,176] - TPThread::~TPThread(): 0x1897b30
+ DEBUG root [2019-09-27 17:08:22,176] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-09-27 17:08:22,183] - Bundle::destroyObjPool(): size 8.
+ DEBUG root [2019-09-27 17:08:22,183] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:22,184] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:22,184] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:22,184] - TPThread::~TPThread(): 0x1845b98
+ DEBUG root [2019-09-27 17:08:22,184] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:22,184] - TPThread::~TPThread(): 0x1845da0
+ DEBUG root [2019-09-27 17:08:22,184] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:22,184] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-09-27 17:08:22,184] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:22,184] - UDPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:22,191] - Bundle::destroyObjPool(): size 8.
+ DEBUG root [2019-09-27 17:08:22,191] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:22,191] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:22,191] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:22,191] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:22,192] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:22,192] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:22,192] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-09-27 17:08:23,185] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2019-09-27 17:08:23,193] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2019-09-27 17:08:26,569] - 
+  INFO root [2019-09-27 17:08:26,569] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-27 17:08:26,569] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [2019-09-27 17:08:26,569] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [2019-09-27 17:08:26,570] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [2019-09-27 17:08:26,578] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:58132 )
+  INFO root [2019-09-27 17:08:26,578] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:58132, SOMAXCONN=511.
+  INFO root [2019-09-27 17:08:26,580] - 
+  INFO root [2019-09-27 17:08:26,580] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-27 17:08:26,581] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [2019-09-27 17:08:26,581] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [2019-09-27 17:08:26,581] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [2019-09-27 17:08:26,581] - ---- tool Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: ACE55A2934030C0DA3446BA0E5FAB5DD. Config: Debug X86. Built: 14:20:56 Sep 18 2019. AppID: 18446744073709551615. UID: 999. PID: 21900 ----
+  INFO root [2019-09-27 17:08:26,582] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [2019-09-27 17:08:26,582] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-27 17:08:26,582] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-09-27 17:08:26,589] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:58133 )
+  INFO root [2019-09-27 17:08:26,589] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:58133, SOMAXCONN=511.
+  INFO root [2019-09-27 17:08:26,592] - ---- tool Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: ACE55A2934030C0DA3446BA0E5FAB5DD. Config: Debug X86. Built: 14:20:56 Sep 18 2019. AppID: 18446744073709551615. UID: 999. PID: 34552 ----
+  INFO root [2019-09-27 17:08:26,592] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [2019-09-27 17:08:26,593] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-27 17:08:26,593] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-09-27 17:08:26,755] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-09-27 17:08:26,755] - Script::install(): KBExtra is successfully!
+  INFO root [2019-09-27 17:08:26,766] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-09-27 17:08:26,766] - Script::install(): KBExtra is successfully!
+ ERROR root [2019-09-27 17:08:27,050] - DataTypes::getDataType:not found type ENTITY.
+ ERROR root [2019-09-27 17:08:27,051] - EntityDef::loadDefBaseMethods: dataType[ENTITY] not found, in createCell!
+ ERROR root [2019-09-27 17:08:27,051] - EntityDef::loadAllDefDescription:loadDefBaseMethods[Avatar] is failed!
+ ERROR root [2019-09-27 17:08:27,051] - EntityDef::loadDefInfo: failed to loadAllDefDescription(), entity:Avatar
+ ERROR root [2019-09-27 17:08:27,052] - EntityDef::initialize: failed to load entity(Avatar) module!
+ ERROR root [2019-09-27 17:08:27,052] - app::initialize(): EntityDef initialization failed!
+  INFO root [2019-09-27 17:08:27,056] - Script::uninstall(): is successfully!
+ DEBUG root [2019-09-27 17:08:27,056] - ThreadPool::destroy(): starting size 2.
+ ERROR root [2019-09-27 17:08:27,058] - DataTypes::getDataType:not found type ENTITY.
+ ERROR root [2019-09-27 17:08:27,059] - EntityDef::loadDefBaseMethods: dataType[ENTITY] not found, in createCell!
+ ERROR root [2019-09-27 17:08:27,059] - EntityDef::loadAllDefDescription:loadDefBaseMethods[Avatar] is failed!
+ ERROR root [2019-09-27 17:08:27,059] - EntityDef::loadDefInfo: failed to loadAllDefDescription(), entity:Avatar
+ ERROR root [2019-09-27 17:08:27,059] - EntityDef::initialize: failed to load entity(Avatar) module!
+ ERROR root [2019-09-27 17:08:27,060] - app::initialize(): EntityDef initialization failed!
+  INFO root [2019-09-27 17:08:27,064] - Script::uninstall(): is successfully!
+ DEBUG root [2019-09-27 17:08:27,064] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-09-27 17:08:27,357] - ThreadPool::destroy(): waiting for thread(2)[0x173b910,0x173c060,], try=1
+  WARN root [2019-09-27 17:08:27,365] - ThreadPool::destroy(): waiting for thread(2)[0x184bdd0,0x184ba90,], try=1
+ DEBUG root [2019-09-27 17:08:27,759] - TPThread::~TPThread(): 0x173b910
+ DEBUG root [2019-09-27 17:08:27,759] - TPThread::~TPThread(): 0x173c060
+ DEBUG root [2019-09-27 17:08:27,759] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-09-27 17:08:27,766] - Bundle::destroyObjPool(): size 8.
+ DEBUG root [2019-09-27 17:08:27,766] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:27,766] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:27,766] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:27,767] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:27,767] - TPThread::~TPThread(): 0x184bdd0
+ DEBUG root [2019-09-27 17:08:27,767] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:27,767] - TPThread::~TPThread(): 0x184ba90
+ DEBUG root [2019-09-27 17:08:27,767] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:27,767] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-09-27 17:08:27,767] - UDPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:27,774] - Bundle::destroyObjPool(): size 8.
+ DEBUG root [2019-09-27 17:08:27,774] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:27,774] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:27,774] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:27,774] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:27,774] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:27,775] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:08:27,775] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-09-27 17:08:28,768] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2019-09-27 17:08:28,775] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2019-09-27 17:10:40,521] - 
+  INFO root [2019-09-27 17:10:40,521] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-27 17:10:40,521] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [2019-09-27 17:10:40,522] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [2019-09-27 17:10:40,522] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [2019-09-27 17:10:40,527] - 
+  INFO root [2019-09-27 17:10:40,527] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-27 17:10:40,527] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [2019-09-27 17:10:40,527] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [2019-09-27 17:10:40,528] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [2019-09-27 17:10:40,530] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:58246 )
+  INFO root [2019-09-27 17:10:40,530] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:58246, SOMAXCONN=511.
+  INFO root [2019-09-27 17:10:40,533] - ---- tool Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: ACE55A2934030C0DA3446BA0E5FAB5DD. Config: Debug X86. Built: 14:20:56 Sep 18 2019. AppID: 18446744073709551615. UID: 999. PID: 9048 ----
+  INFO root [2019-09-27 17:10:40,534] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [2019-09-27 17:10:40,534] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-27 17:10:40,534] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-09-27 17:10:40,536] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:58247 )
+  INFO root [2019-09-27 17:10:40,536] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:58247, SOMAXCONN=511.
+  INFO root [2019-09-27 17:10:40,539] - ---- tool Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: ACE55A2934030C0DA3446BA0E5FAB5DD. Config: Debug X86. Built: 14:20:56 Sep 18 2019. AppID: 18446744073709551615. UID: 999. PID: 29928 ----
+  INFO root [2019-09-27 17:10:40,539] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [2019-09-27 17:10:40,539] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-27 17:10:40,540] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-09-27 17:10:40,707] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-09-27 17:10:40,707] - Script::install(): KBExtra is successfully!
+  INFO root [2019-09-27 17:10:40,711] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-09-27 17:10:40,712] - Script::install(): KBExtra is successfully!
+ DEBUG root [2019-09-27 17:10:41,661] - ClientSDK::writeServerErrorDescrsModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2019-09-27 17:10:41,662] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2019-09-27 17:10:41,668] - ClientSDK::writeEngineMessagesModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2019-09-27 17:10:41,675] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2019-09-27 17:10:41,682] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2019-09-27 17:10:41,686] - ClientSDK::writeEntityDefsModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2019-09-27 17:10:41,689] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2019-09-27 17:10:41,698] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2019-09-27 17:10:41,702] - ClientSDK::writeEntityModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins//Account
+ DEBUG root [2019-09-27 17:10:41,704] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/AccountBase.cs
+ DEBUG root [2019-09-27 17:10:41,705] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/EntityCallAccountBase.cs
+ DEBUG root [2019-09-27 17:10:41,711] - ClientSDK::writeEntityModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins//Avatar
+ DEBUG root [2019-09-27 17:10:41,712] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/AvatarBase.cs
+ DEBUG root [2019-09-27 17:10:41,719] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/EntityCallAvatarBase.cs
+ DEBUG root [2019-09-27 17:10:41,724] - ClientSDK::writeEntityModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins//Food
+ DEBUG root [2019-09-27 17:10:41,725] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/FoodBase.cs
+ DEBUG root [2019-09-27 17:10:41,731] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/EntityCallFoodBase.cs
+ DEBUG root [2019-09-27 17:10:41,736] - ClientSDK::writeEntityModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins//Room
+ DEBUG root [2019-09-27 17:10:41,737] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/RoomBase.cs
+ DEBUG root [2019-09-27 17:10:41,744] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/EntityCallRoomBase.cs
+  INFO root [2019-09-27 17:10:41,759] - Script::uninstall(): is successfully!
+ DEBUG root [2019-09-27 17:10:41,759] - ThreadPool::destroy(): starting size 2.
+ DEBUG root [2019-09-27 17:10:41,958] - ClientSDK::writeServerErrorDescrsModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins//
+ DEBUG root [2019-09-27 17:10:41,959] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2019-09-27 17:10:41,963] - ClientSDK::writeEngineMessagesModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins//Messages.cpp
+ DEBUG root [2019-09-27 17:10:41,967] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2019-09-27 17:10:41,972] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2019-09-27 17:10:41,978] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+ DEBUG root [2019-09-27 17:10:41,982] - ClientSDK::writeEntityDefsModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins//EntityDef.cpp
+ DEBUG root [2019-09-27 17:10:41,984] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2019-09-27 17:10:41,989] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2019-09-27 17:10:41,993] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2019-09-27 17:10:41,997] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+ DEBUG root [2019-09-27 17:10:42,001] - ClientSDK::writeEntityModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Account
+ DEBUG root [2019-09-27 17:10:42,002] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AccountBase.cpp
+ DEBUG root [2019-09-27 17:10:42,008] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AccountBase.h
+ DEBUG root [2019-09-27 17:10:42,012] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAccountBase.cpp
+ DEBUG root [2019-09-27 17:10:42,017] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAccountBase.h
+ DEBUG root [2019-09-27 17:10:42,021] - ClientSDK::writeEntityModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Avatar
+ DEBUG root [2019-09-27 17:10:42,022] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.cpp
+ DEBUG root [2019-09-27 17:10:42,026] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.h
+ DEBUG root [2019-09-27 17:10:42,029] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.cpp
+ DEBUG root [2019-09-27 17:10:42,034] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.h
+ DEBUG root [2019-09-27 17:10:42,038] - ClientSDK::writeEntityModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Food
+ DEBUG root [2019-09-27 17:10:42,039] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/FoodBase.cpp
+ DEBUG root [2019-09-27 17:10:42,044] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/FoodBase.h
+ DEBUG root [2019-09-27 17:10:42,049] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallFoodBase.cpp
+ DEBUG root [2019-09-27 17:10:42,053] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallFoodBase.h
+ DEBUG root [2019-09-27 17:10:42,057] - ClientSDK::writeEntityModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Room
+ DEBUG root [2019-09-27 17:10:42,058] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.cpp
+  WARN root [2019-09-27 17:10:42,060] - ThreadPool::destroy(): waiting for thread(2)[0x15daef8,0x15db718,], try=1
+ DEBUG root [2019-09-27 17:10:42,063] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.h
+ DEBUG root [2019-09-27 17:10:42,067] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.cpp
+ DEBUG root [2019-09-27 17:10:42,071] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.h
+  INFO root [2019-09-27 17:10:42,082] - Script::uninstall(): is successfully!
+ DEBUG root [2019-09-27 17:10:42,082] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-09-27 17:10:42,383] - ThreadPool::destroy(): waiting for thread(2)[0x15ebe30,0x15eb9b8,], try=1
+ DEBUG root [2019-09-27 17:10:42,462] - TPThread::~TPThread(): 0x15daef8
+ DEBUG root [2019-09-27 17:10:42,462] - TPThread::~TPThread(): 0x15db718
+ DEBUG root [2019-09-27 17:10:42,462] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-09-27 17:10:42,469] - Bundle::destroyObjPool(): size 10.
+ DEBUG root [2019-09-27 17:10:42,469] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:10:42,469] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:10:42,469] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:10:42,470] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:10:42,470] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:10:42,470] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:10:42,470] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-09-27 17:10:42,470] - tool(18446744073709551615) has shut down. ClientSDK=true
+ DEBUG root [2019-09-27 17:10:42,787] - TPThread::~TPThread(): 0x15ebe30
+ DEBUG root [2019-09-27 17:10:42,787] - TPThread::~TPThread(): 0x15eb9b8
+ DEBUG root [2019-09-27 17:10:42,787] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-09-27 17:10:42,794] - Bundle::destroyObjPool(): size 15.
+ DEBUG root [2019-09-27 17:10:42,794] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:10:42,794] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:10:42,795] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:10:42,795] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:10:42,795] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:10:42,795] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:10:42,795] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-09-27 17:10:42,795] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2019-09-27 17:10:43,471] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2019-09-27 17:10:43,795] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2019-09-27 17:14:59,428] - 
+  INFO root [2019-09-27 17:14:59,429] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-27 17:14:59,429] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [2019-09-27 17:14:59,429] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [2019-09-27 17:14:59,429] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [2019-09-27 17:14:59,439] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:58480 )
+  INFO root [2019-09-27 17:14:59,439] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:58480, SOMAXCONN=511.
+  INFO root [2019-09-27 17:14:59,442] - 
+  INFO root [2019-09-27 17:14:59,442] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-27 17:14:59,442] - ---- tool Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: ACE55A2934030C0DA3446BA0E5FAB5DD. Config: Debug X86. Built: 14:20:56 Sep 18 2019. AppID: 18446744073709551615. UID: 999. PID: 26096 ----
+  INFO root [2019-09-27 17:14:59,442] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [2019-09-27 17:14:59,443] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [2019-09-27 17:14:59,443] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [2019-09-27 17:14:59,443] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [2019-09-27 17:14:59,443] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-27 17:14:59,443] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-09-27 17:14:59,452] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:58481 )
+  INFO root [2019-09-27 17:14:59,452] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:58481, SOMAXCONN=511.
+  INFO root [2019-09-27 17:14:59,455] - ---- tool Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: ACE55A2934030C0DA3446BA0E5FAB5DD. Config: Debug X86. Built: 14:20:56 Sep 18 2019. AppID: 18446744073709551615. UID: 999. PID: 25360 ----
+  INFO root [2019-09-27 17:14:59,455] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [2019-09-27 17:14:59,455] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-27 17:14:59,456] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-09-27 17:14:59,624] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-09-27 17:14:59,624] - Script::install(): KBExtra is successfully!
+  INFO root [2019-09-27 17:14:59,629] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-09-27 17:14:59,629] - Script::install(): KBExtra is successfully!
+ DEBUG root [2019-09-27 17:15:00,581] - ClientSDK::writeServerErrorDescrsModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2019-09-27 17:15:00,582] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2019-09-27 17:15:00,589] - ClientSDK::writeEngineMessagesModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2019-09-27 17:15:00,596] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2019-09-27 17:15:00,605] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2019-09-27 17:15:00,612] - ClientSDK::writeEntityDefsModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2019-09-27 17:15:00,615] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2019-09-27 17:15:00,628] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2019-09-27 17:15:00,629] - ClientSDK::writeEntityModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins//Account
+ DEBUG root [2019-09-27 17:15:00,631] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/AccountBase.cs
+ DEBUG root [2019-09-27 17:15:00,633] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/EntityCallAccountBase.cs
+ DEBUG root [2019-09-27 17:15:00,634] - ClientSDK::writeEntityModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins//Avatar
+ DEBUG root [2019-09-27 17:15:00,635] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/AvatarBase.cs
+ DEBUG root [2019-09-27 17:15:00,637] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/EntityCallAvatarBase.cs
+ DEBUG root [2019-09-27 17:15:00,638] - ClientSDK::writeEntityModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins//Food
+ DEBUG root [2019-09-27 17:15:00,640] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/FoodBase.cs
+ DEBUG root [2019-09-27 17:15:00,642] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/EntityCallFoodBase.cs
+ DEBUG root [2019-09-27 17:15:00,644] - ClientSDK::writeEntityModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins//Room
+ DEBUG root [2019-09-27 17:15:00,645] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/RoomBase.cs
+ DEBUG root [2019-09-27 17:15:00,653] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_unity3d_plugins/EntityCallRoomBase.cs
+ DEBUG root [2019-09-27 17:15:00,660] - ClientSDK::writeServerErrorDescrsModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins//
+ DEBUG root [2019-09-27 17:15:00,661] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2019-09-27 17:15:00,663] - ClientSDK::writeEngineMessagesModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins//Messages.cpp
+  INFO root [2019-09-27 17:15:00,668] - Script::uninstall(): is successfully!
+ DEBUG root [2019-09-27 17:15:00,668] - ThreadPool::destroy(): starting size 2.
+ DEBUG root [2019-09-27 17:15:00,670] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2019-09-27 17:15:00,675] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2019-09-27 17:15:00,681] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+ DEBUG root [2019-09-27 17:15:00,682] - ClientSDK::writeEntityDefsModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins//EntityDef.cpp
+ DEBUG root [2019-09-27 17:15:00,684] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2019-09-27 17:15:00,689] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2019-09-27 17:15:00,691] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2019-09-27 17:15:00,693] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+ DEBUG root [2019-09-27 17:15:00,695] - ClientSDK::writeEntityModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Account
+ DEBUG root [2019-09-27 17:15:00,696] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AccountBase.cpp
+ DEBUG root [2019-09-27 17:15:00,697] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AccountBase.h
+ DEBUG root [2019-09-27 17:15:00,699] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAccountBase.cpp
+ DEBUG root [2019-09-27 17:15:00,700] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAccountBase.h
+ DEBUG root [2019-09-27 17:15:00,705] - ClientSDK::writeEntityModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Avatar
+ DEBUG root [2019-09-27 17:15:00,706] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.cpp
+ DEBUG root [2019-09-27 17:15:00,708] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.h
+ DEBUG root [2019-09-27 17:15:00,712] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.cpp
+ DEBUG root [2019-09-27 17:15:00,714] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.h
+ DEBUG root [2019-09-27 17:15:00,716] - ClientSDK::writeEntityModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Food
+ DEBUG root [2019-09-27 17:15:00,717] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/FoodBase.cpp
+ DEBUG root [2019-09-27 17:15:00,719] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/FoodBase.h
+ DEBUG root [2019-09-27 17:15:00,721] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallFoodBase.cpp
+ DEBUG root [2019-09-27 17:15:00,722] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallFoodBase.h
+ DEBUG root [2019-09-27 17:15:00,724] - ClientSDK::writeEntityModule(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Room
+ DEBUG root [2019-09-27 17:15:00,725] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.cpp
+ DEBUG root [2019-09-27 17:15:00,726] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.h
+ DEBUG root [2019-09-27 17:15:00,728] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.cpp
+ DEBUG root [2019-09-27 17:15:00,729] - ClientSDK::saveFile(): D:\Work\Svr\KBEngine_Bate\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.h
+  INFO root [2019-09-27 17:15:00,743] - Script::uninstall(): is successfully!
+ DEBUG root [2019-09-27 17:15:00,743] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-09-27 17:15:00,969] - ThreadPool::destroy(): waiting for thread(2)[0x1721958,0x1721d68,], try=1
+  WARN root [2019-09-27 17:15:01,044] - ThreadPool::destroy(): waiting for thread(2)[0x1893ce0,0x1893d48,], try=1
+ DEBUG root [2019-09-27 17:15:01,371] - TPThread::~TPThread(): 0x1721958
+ DEBUG root [2019-09-27 17:15:01,371] - TPThread::~TPThread(): 0x1721d68
+ DEBUG root [2019-09-27 17:15:01,371] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-09-27 17:15:01,378] - Bundle::destroyObjPool(): size 10.
+ DEBUG root [2019-09-27 17:15:01,379] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:15:01,379] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:15:01,380] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:15:01,380] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:15:01,380] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:15:01,380] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:15:01,380] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-09-27 17:15:01,380] - tool(18446744073709551615) has shut down. ClientSDK=true
+ DEBUG root [2019-09-27 17:15:01,446] - TPThread::~TPThread(): 0x1893ce0
+ DEBUG root [2019-09-27 17:15:01,446] - TPThread::~TPThread(): 0x1893d48
+ DEBUG root [2019-09-27 17:15:01,446] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-09-27 17:15:01,454] - Bundle::destroyObjPool(): size 15.
+ DEBUG root [2019-09-27 17:15:01,454] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:15:01,455] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:15:01,455] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:15:01,455] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:15:01,455] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:15:01,455] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-09-27 17:15:01,455] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-09-27 17:15:01,456] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2019-09-27 17:15:02,381] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2019-09-27 17:15:02,456] - EventDispatcher()::~EventDispatcher: Num timers = 2

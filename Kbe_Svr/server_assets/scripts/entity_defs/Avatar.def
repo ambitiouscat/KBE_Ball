@@ -1,0 +1,17 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	    <createCell>
+            <Arg>       ENTITYCALL        </Arg>
+	    </createCell>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

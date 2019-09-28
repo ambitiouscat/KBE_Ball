@@ -1,0 +1,42 @@
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 00:24:28 249] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 01:24:28 214] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 02:24:28 200] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 03:24:28 227] - Dbmgr::DBTaskServerLog()
+   ERROR      dbmgr-1 999 4001  [2019-09-28 04:24:27 997] - DBInterfaceMysql::processException: Thread 0x45fd8f0 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 04:24:28 010] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 04:24:28 545] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+    INFO      dbmgr-1 999 4001  [2019-09-28 04:24:28 545] - DBInterfaceMysql::processException: Thread 0x45fd8f0 reconnected(kb_uid_999). Attempts = 1
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 04:24:28 752] - Dbmgr::DBTaskServerLog()
+   ERROR      dbmgr-1 999 4001  [2019-09-28 05:24:27 836] - DBInterfaceMysql::processException: Thread 0x51b0068 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 05:24:27 837] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 05:24:28 106] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+    INFO      dbmgr-1 999 4001  [2019-09-28 05:24:28 106] - DBInterfaceMysql::processException: Thread 0x51b0068 reconnected(kb_uid_999). Attempts = 1
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 05:24:28 318] - Dbmgr::DBTaskServerLog()
+   ERROR      dbmgr-1 999 4001  [2019-09-28 06:24:27 791] - DBInterfaceMysql::processException: Thread 0x51b3720 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 06:24:27 792] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 06:24:28 061] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+    INFO      dbmgr-1 999 4001  [2019-09-28 06:24:28 061] - DBInterfaceMysql::processException: Thread 0x51b3720 reconnected(kb_uid_999). Attempts = 1
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 06:24:28 264] - Dbmgr::DBTaskServerLog()
+   ERROR      dbmgr-1 999 4001  [2019-09-28 07:24:27 747] - DBInterfaceMysql::processException: Thread 0x4601ac8 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 07:24:27 748] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 07:24:28 020] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+    INFO      dbmgr-1 999 4001  [2019-09-28 07:24:28 020] - DBInterfaceMysql::processException: Thread 0x4601ac8 reconnected(kb_uid_999). Attempts = 1
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 07:24:28 230] - Dbmgr::DBTaskServerLog()
+   ERROR      dbmgr-1 999 4001  [2019-09-28 08:24:27 702] - DBInterfaceMysql::processException: Thread 0x51bd9d8 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 08:24:27 703] - DBInterfaceMysql::attach: connect: 129.28.175.241:3306 starting...
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 08:24:27 938] - DBInterfaceMysql::attach: successfully! addr: 129.28.175.241:3306
+    INFO      dbmgr-1 999 4001  [2019-09-28 08:24:27 938] - DBInterfaceMysql::processException: Thread 0x51bd9d8 reconnected(kb_uid_999). Attempts = 1
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 08:24:28 136] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 09:24:27 862] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 10:24:27 828] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 11:24:27 794] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 12:24:27 740] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 13:24:27 666] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 14:24:27 652] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 15:24:27 598] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 16:24:27 564] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 17:24:27 510] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 18:24:27 436] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 19:24:27 422] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 20:24:24 960] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 999 4001  [2019-09-28 21:24:24 925] - Dbmgr::DBTaskServerLog()

@@ -1,0 +1,693 @@
+  INFO root [0x00001e04] [2019-09-27 10:06:29,238] - 
+  INFO root [0x00001e04] [2019-09-27 10:06:29,239] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001e04] [2019-09-27 10:06:29,240] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [0x00001e04] [2019-09-27 10:06:29,240] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [0x00001e04] [2019-09-27 10:06:29,240] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [0x00001e04] [2019-09-27 10:06:29,254] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:62569 )
+  INFO root [0x00001e04] [2019-09-27 10:06:29,254] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:62569, SOMAXCONN=511.
+  INFO root [0x00001e04] [2019-09-27 10:06:29,254] - server-configs:
+  INFO root [0x00001e04] [2019-09-27 10:06:29,254] - 	gameUpdateHertz : 10
+  INFO root [0x00001e04] [2019-09-27 10:06:29,254] - 	defaultViewRadius : 80
+  INFO root [0x00001e04] [2019-09-27 10:06:29,255] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00001e04] [2019-09-27 10:06:29,255] - 	entryScriptFile : kbemain
+  INFO root [0x00001e04] [2019-09-27 10:06:29,255] - 	internalTcpAddr : 192.168.0.175:62569
+  INFO root [0x00001e04] [2019-09-27 10:06:29,255] - 	componentID : 8003
+  INFO root [0x00001e04] [2019-09-27 10:06:30,758] - ---- cellapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 14:22:22 Sep 18 2019. AppID: 8003. UID: 999. PID: 18208 ----
+  INFO root [0x00001e04] [2019-09-27 10:06:30,760] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [0x00001e04] [2019-09-27 10:06:30,760] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001e04] [2019-09-27 10:06:30,760] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00001e04] [2019-09-27 10:06:30,941] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00001e04] [2019-09-27 10:06:30,941] - Script::install(): KBExtra is successfully!
+  INFO root [0x00001e04] [2019-09-27 10:06:30,990] - TelnetServer server is running on port 50000
+  INFO root [0x00001e04] [2019-09-27 10:06:31,293] - ---- cellapp is running ----
+ DEBUG root [0x00001e04] [2019-09-27 10:06:31,293] - Components::process(): Request for the process of identity...
+  WARN root [0x00001e04] [2019-09-27 10:06:37,503] - EntityApp::checkTickPeriod: tick took 6209% (6.21 seconds)!
+  INFO root [0x00001e04] [2019-09-27 10:06:38,543] - Components::findComponents: find logger(1)...
+  INFO root [0x00001e04] [2019-09-27 10:06:38,646] - Components::findComponents: found logger, addr:192.168.0.175:62568
+  INFO root [0x00001e04] [2019-09-27 10:06:38,646] - Components::addComponent: reset orderLog, uid=999!
+  INFO root [0x00001e04] [2019-09-27 10:06:38,646] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001e04] [2019-09-27 10:06:38,647] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00001e04] [2019-09-27 10:06:38,753] - Components::findComponents: found dbmgr, addr:192.168.0.175:62572
+  INFO root [0x00001e04] [2019-09-27 10:06:38,753] - Components::addComponent: reset orderLog, uid=999!
+  INFO root [0x00001e04] [2019-09-27 10:06:38,753] - Components::addComponent[dbmgr], uid=999, componentID=4001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001e04] [2019-09-27 10:06:38,754] - Components::findComponents: found dbmgr, addr:192.168.0.175:62572
+  WARN root [0x00001e04] [2019-09-27 10:06:39,755] - Forwarding logs to logger[192.168.0.175:62568/0/0/0]...
+ ERROR root [0x00001e04] [2019-09-27 14:52:56,031] - Components::removeComponentByChannel: logger : 2001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=7943881509119, lastReceivedTime=7943612349783, inactivityExceptionPeriod=599500000)
+   OFF root [0x00001e04] [2019-09-27 14:52:56,265] - The following logs sent to logger failed:
+  WARN root [0x00001e04] [2019-09-27 14:52:56,272] - ==> [2019-09-27 14:52:56 017] TCPPacketReceiver::processPendingEvents(192.168.0.175:62568): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001e04] [2019-09-27 14:52:56,272] - ==> [2019-09-27 14:52:56 159] Components::removeComponentByChannel: logger : 2001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=7943881509119, lastReceivedTime=7943612349783, inactivityExceptionPeriod=599500000)
+  WARN root [0x00001e04] [2019-09-27 14:52:56,333] - EntityApp::checkTickPeriod: tick took 401% (0.40 seconds)!
+ ERROR root [0x00001e04] [2019-09-27 14:52:56,353] - 192.168.0.175:62567: TCPPacketSender::processSend(internal): Exception occurred: REASON_CLIENT_DISCONNECTED , errno: 10054, 192.168.0.175:62567/0/0/0
+ ERROR root [0x00001e04] [2019-09-27 14:52:56,354] - Components::removeComponentByChannel: cellappmgr : 6001, Abnormal exit(reason=TCPPacketSender::processSend: errno=10054)! Channel(timestamp=7943884852127, lastReceivedTime=7943613144054, inactivityExceptionPeriod=599500000)
+  INFO root [0x00001e04] [2019-09-27 14:52:56,370] - Shutdowner::onShutdownBegin: shutting down(period=1, tickPeriod=1)
+  WARN root [0x00001e04] [2019-09-27 14:52:56,371] - TCPPacketReceiver::processPendingEvents(192.168.0.175:62572): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [0x00001e04] [2019-09-27 14:52:56,379] - Components::removeComponentByChannel: dbmgr : 4001, Normal exit!
+  WARN root [0x00001e04] [2019-09-27 14:52:56,379] - ServerApp::shutDown:  In shuttingdown!
+  WARN root [0x00001e04] [2019-09-27 14:52:56,380] - TCPPacketReceiver::processPendingEvents(192.168.0.175:62609): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [0x00001e04] [2019-09-27 14:52:56,380] - Components::removeComponentByChannel: baseapp : 7003, Normal exit!
+  WARN root [0x00001e04] [2019-09-27 14:52:56,380] - TCPPacketReceiver::processPendingEvents(192.168.0.175:62566): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [0x00001e04] [2019-09-27 14:52:56,380] - Components::removeComponentByChannel: baseappmgr : 5001, Normal exit!
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,345] - 
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,346] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,346] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,347] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,347] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,355] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:63764 )
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,355] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:63764, SOMAXCONN=511.
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,355] - server-configs:
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,355] - 	gameUpdateHertz : 10
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,355] - 	defaultViewRadius : 80
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,356] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,356] - 	entryScriptFile : kbemain
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,356] - 	internalTcpAddr : 192.168.0.175:63764
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,356] - 	componentID : 8003
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,416] - Components::findLogger: found logger, addr:192.168.0.175:63729
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,416] - Components::addComponent: reset orderLog, uid=999!
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,416] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,420] - ---- cellapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 14:22:22 Sep 18 2019. AppID: 8003. UID: 999. PID: 32204 ----
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,421] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,421] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,421] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,601] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,601] - Script::install(): KBExtra is successfully!
+ ERROR root [0x00003ea8] [2019-09-27 14:54:02,613] - TiXmlNode::openXML: D:/Work/Svr/KBEngine_Bate/server_assets/scripts/entity_defs/Avatar.def, error!
+ ERROR root [0x00003ea8] [2019-09-27 14:54:02,614] - app::initialize(): initialization failed!
+ DEBUG root [0x00003ea8] [2019-09-27 14:54:02,614] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00003ea8] [2019-09-27 14:54:02,614] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00003ea8] [2019-09-27 14:54:02,620] - Script::uninstall(): is successfully!
+ DEBUG root [0x00003ea8] [2019-09-27 14:54:02,620] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00003ea8] [2019-09-27 14:54:02,921] - ThreadPool::destroy(): waiting for thread(2)[0x94eb00,0x94f2b8,], try=1
+ DEBUG root [0x00003ea8] [2019-09-27 14:54:03,322] - TPThread::~TPThread(): 0x94eb00
+ DEBUG root [0x00003ea8] [2019-09-27 14:54:03,322] - TPThread::~TPThread(): 0x94f2b8
+ DEBUG root [0x00003ea8] [2019-09-27 14:54:03,322] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00003ea8] [2019-09-27 14:54:03,322] - Bundle::destroyObjPool(): size 0.
+ DEBUG root [0x00003ea8] [2019-09-27 14:54:03,322] - Channel::destroyObjPool(): size 15.
+ DEBUG root [0x00003ea8] [2019-09-27 14:54:03,323] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00003ea8] [2019-09-27 14:54:03,323] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x00003ea8] [2019-09-27 14:54:03,323] - EndPoint::destroyObjPool(): size 15.
+ DEBUG root [0x00003ea8] [2019-09-27 14:54:03,323] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00003ea8] [2019-09-27 14:54:03,323] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00003ea8] [2019-09-27 14:54:03,323] - UDPPacketReceiver::destroyObjPool(): size 0.
+  WARN root [0x00003ea8] [2019-09-27 14:54:03,323] - Forwarding logs to logger[192.168.0.175:63729/0/0/0]...
+  INFO root [0x00003ea8] [2019-09-27 14:54:09,837] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x00001f8c] [2019-09-27 14:55:49,189] - 
+  INFO root [0x00001f8c] [2019-09-27 14:55:49,190] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001f8c] [2019-09-27 14:55:49,191] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [0x00001f8c] [2019-09-27 14:55:49,191] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [0x00001f8c] [2019-09-27 14:55:49,191] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [0x00001f8c] [2019-09-27 14:55:49,207] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:63853 )
+  INFO root [0x00001f8c] [2019-09-27 14:55:49,207] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:63853, SOMAXCONN=511.
+  INFO root [0x00001f8c] [2019-09-27 14:55:49,207] - server-configs:
+  INFO root [0x00001f8c] [2019-09-27 14:55:49,207] - 	gameUpdateHertz : 10
+  INFO root [0x00001f8c] [2019-09-27 14:55:49,208] - 	defaultViewRadius : 80
+  INFO root [0x00001f8c] [2019-09-27 14:55:49,208] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00001f8c] [2019-09-27 14:55:49,208] - 	entryScriptFile : kbemain
+  INFO root [0x00001f8c] [2019-09-27 14:55:49,208] - 	internalTcpAddr : 192.168.0.175:63853
+  INFO root [0x00001f8c] [2019-09-27 14:55:49,208] - 	componentID : 8003
+  INFO root [0x00001f8c] [2019-09-27 14:55:50,712] - ---- cellapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 14:22:22 Sep 18 2019. AppID: 8003. UID: 999. PID: 5168 ----
+  INFO root [0x00001f8c] [2019-09-27 14:55:50,713] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [0x00001f8c] [2019-09-27 14:55:50,713] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001f8c] [2019-09-27 14:55:50,713] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00001f8c] [2019-09-27 14:55:50,901] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00001f8c] [2019-09-27 14:55:50,901] - Script::install(): KBExtra is successfully!
+ ERROR root [0x00001f8c] [2019-09-27 14:55:50,907] - TiXmlNode::openXML: D:/Work/Svr/KBEngine_Bate/server_assets/scripts/entity_defs/Avatar.def, error!
+ ERROR root [0x00001f8c] [2019-09-27 14:55:50,907] - app::initialize(): initialization failed!
+ DEBUG root [0x00001f8c] [2019-09-27 14:55:50,907] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00001f8c] [2019-09-27 14:55:50,907] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00001f8c] [2019-09-27 14:55:50,912] - Script::uninstall(): is successfully!
+ DEBUG root [0x00001f8c] [2019-09-27 14:55:50,913] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00001f8c] [2019-09-27 14:55:51,213] - ThreadPool::destroy(): waiting for thread(2)[0xadd178,0xadda68,], try=1
+ DEBUG root [0x00001f8c] [2019-09-27 14:55:51,615] - TPThread::~TPThread(): 0xadd178
+ DEBUG root [0x00001f8c] [2019-09-27 14:55:51,615] - TPThread::~TPThread(): 0xadda68
+ DEBUG root [0x00001f8c] [2019-09-27 14:55:51,615] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00001f8c] [2019-09-27 14:55:51,615] - Bundle::destroyObjPool(): size 3.
+ DEBUG root [0x00001f8c] [2019-09-27 14:55:51,615] - Channel::destroyObjPool(): size 0.
+ DEBUG root [0x00001f8c] [2019-09-27 14:55:51,615] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00001f8c] [2019-09-27 14:55:51,616] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x00001f8c] [2019-09-27 14:55:51,616] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x00001f8c] [2019-09-27 14:55:51,616] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00001f8c] [2019-09-27 14:55:51,616] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00001f8c] [2019-09-27 14:55:51,616] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00001f8c] [2019-09-27 14:55:58,118] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x000045c4] [2019-09-27 14:58:14,848] - 
+  INFO root [0x000045c4] [2019-09-27 14:58:14,849] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000045c4] [2019-09-27 14:58:14,850] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [0x000045c4] [2019-09-27 14:58:14,850] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [0x000045c4] [2019-09-27 14:58:14,850] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [0x000045c4] [2019-09-27 14:58:14,864] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:63962 )
+  INFO root [0x000045c4] [2019-09-27 14:58:14,865] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:63962, SOMAXCONN=511.
+  INFO root [0x000045c4] [2019-09-27 14:58:14,865] - server-configs:
+  INFO root [0x000045c4] [2019-09-27 14:58:14,865] - 	gameUpdateHertz : 10
+  INFO root [0x000045c4] [2019-09-27 14:58:14,865] - 	defaultViewRadius : 80
+  INFO root [0x000045c4] [2019-09-27 14:58:14,865] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000045c4] [2019-09-27 14:58:14,866] - 	entryScriptFile : kbemain
+  INFO root [0x000045c4] [2019-09-27 14:58:14,866] - 	internalTcpAddr : 192.168.0.175:63962
+  INFO root [0x000045c4] [2019-09-27 14:58:14,866] - 	componentID : 8003
+  WARN root [0x000045c4] [2019-09-27 14:58:15,207] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20587, errorno=10048
+  INFO root [0x000045c4] [2019-09-27 14:58:15,210] - ---- cellapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 14:22:22 Sep 18 2019. AppID: 8003. UID: 999. PID: 27516 ----
+  INFO root [0x000045c4] [2019-09-27 14:58:15,211] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [0x000045c4] [2019-09-27 14:58:15,211] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000045c4] [2019-09-27 14:58:15,211] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000045c4] [2019-09-27 14:58:15,401] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000045c4] [2019-09-27 14:58:15,402] - Script::install(): KBExtra is successfully!
+ ERROR root [0x000045c4] [2019-09-27 14:58:15,408] - TiXmlNode::openXML: D:/Work/Svr/KBEngine_Bate/server_assets/scripts/entity_defs/Avatar.def, error!
+ ERROR root [0x000045c4] [2019-09-27 14:58:15,408] - app::initialize(): initialization failed!
+ DEBUG root [0x000045c4] [2019-09-27 14:58:15,408] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x000045c4] [2019-09-27 14:58:15,408] - Witness::destroyObjPool(): size 0.
+  INFO root [0x000045c4] [2019-09-27 14:58:15,414] - Script::uninstall(): is successfully!
+ DEBUG root [0x000045c4] [2019-09-27 14:58:15,415] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000045c4] [2019-09-27 14:58:15,716] - ThreadPool::destroy(): waiting for thread(2)[0x25197e0,0x2519b20,], try=1
+ DEBUG root [0x000045c4] [2019-09-27 14:58:16,118] - TPThread::~TPThread(): 0x25197e0
+ DEBUG root [0x000045c4] [2019-09-27 14:58:16,118] - TPThread::~TPThread(): 0x2519b20
+ DEBUG root [0x000045c4] [2019-09-27 14:58:16,118] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x000045c4] [2019-09-27 14:58:16,118] - Bundle::destroyObjPool(): size 2.
+ DEBUG root [0x000045c4] [2019-09-27 14:58:16,118] - Channel::destroyObjPool(): size 0.
+ DEBUG root [0x000045c4] [2019-09-27 14:58:16,118] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x000045c4] [2019-09-27 14:58:16,119] - UDPPacket::destroyObjPool(): size 15.
+ DEBUG root [0x000045c4] [2019-09-27 14:58:16,119] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x000045c4] [2019-09-27 14:58:16,119] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x000045c4] [2019-09-27 14:58:16,119] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x000045c4] [2019-09-27 14:58:16,119] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x000045c4] [2019-09-27 14:58:22,623] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x00003da0] [2019-09-27 15:01:49,971] - 
+  INFO root [0x00003da0] [2019-09-27 15:01:49,972] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00003da0] [2019-09-27 15:01:49,973] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [0x00003da0] [2019-09-27 15:01:49,973] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [0x00003da0] [2019-09-27 15:01:49,973] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [0x00003da0] [2019-09-27 15:01:49,989] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:64175 )
+  INFO root [0x00003da0] [2019-09-27 15:01:49,989] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:64175, SOMAXCONN=511.
+  INFO root [0x00003da0] [2019-09-27 15:01:49,990] - server-configs:
+  INFO root [0x00003da0] [2019-09-27 15:01:49,990] - 	gameUpdateHertz : 10
+  INFO root [0x00003da0] [2019-09-27 15:01:49,990] - 	defaultViewRadius : 80
+  INFO root [0x00003da0] [2019-09-27 15:01:49,990] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00003da0] [2019-09-27 15:01:49,990] - 	entryScriptFile : kbemain
+  INFO root [0x00003da0] [2019-09-27 15:01:49,990] - 	internalTcpAddr : 192.168.0.175:64175
+  INFO root [0x00003da0] [2019-09-27 15:01:49,990] - 	componentID : 8003
+  WARN root [0x00003da0] [2019-09-27 15:01:50,331] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20967, errorno=10048
+  INFO root [0x00003da0] [2019-09-27 15:01:50,334] - ---- cellapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 14:22:22 Sep 18 2019. AppID: 8003. UID: 999. PID: 5788 ----
+  INFO root [0x00003da0] [2019-09-27 15:01:50,334] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [0x00003da0] [2019-09-27 15:01:50,334] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00003da0] [2019-09-27 15:01:50,335] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00003da0] [2019-09-27 15:01:50,524] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00003da0] [2019-09-27 15:01:50,524] - Script::install(): KBExtra is successfully!
+ ERROR root [0x00003da0] [2019-09-27 15:01:50,529] - TiXmlNode::openXML: D:/Work/Svr/KBEngine_Bate/server_assets/scripts/entity_defs/Avatar.def, error!
+ ERROR root [0x00003da0] [2019-09-27 15:01:50,529] - app::initialize(): initialization failed!
+ DEBUG root [0x00003da0] [2019-09-27 15:01:50,529] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00003da0] [2019-09-27 15:01:50,529] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00003da0] [2019-09-27 15:01:50,534] - Script::uninstall(): is successfully!
+ DEBUG root [0x00003da0] [2019-09-27 15:01:50,534] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00003da0] [2019-09-27 15:01:50,835] - ThreadPool::destroy(): waiting for thread(2)[0xd8cfb8,0xd8d290,], try=1
+ DEBUG root [0x00003da0] [2019-09-27 15:01:51,237] - TPThread::~TPThread(): 0xd8cfb8
+ DEBUG root [0x00003da0] [2019-09-27 15:01:51,237] - TPThread::~TPThread(): 0xd8d290
+ DEBUG root [0x00003da0] [2019-09-27 15:01:51,237] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00003da0] [2019-09-27 15:01:51,237] - Bundle::destroyObjPool(): size 2.
+ DEBUG root [0x00003da0] [2019-09-27 15:01:51,237] - Channel::destroyObjPool(): size 0.
+ DEBUG root [0x00003da0] [2019-09-27 15:01:51,238] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00003da0] [2019-09-27 15:01:51,238] - UDPPacket::destroyObjPool(): size 15.
+ DEBUG root [0x00003da0] [2019-09-27 15:01:51,238] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x00003da0] [2019-09-27 15:01:51,238] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00003da0] [2019-09-27 15:01:51,238] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00003da0] [2019-09-27 15:01:51,238] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00003da0] [2019-09-27 15:01:57,740] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x0000307c] [2019-09-27 15:02:07,841] - 
+  INFO root [0x0000307c] [2019-09-27 15:02:07,841] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000307c] [2019-09-27 15:02:07,843] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [0x0000307c] [2019-09-27 15:02:07,843] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [0x0000307c] [2019-09-27 15:02:07,843] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [0x0000307c] [2019-09-27 15:02:07,864] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:64196 )
+  INFO root [0x0000307c] [2019-09-27 15:02:07,864] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:64196, SOMAXCONN=511.
+  INFO root [0x0000307c] [2019-09-27 15:02:07,864] - server-configs:
+  INFO root [0x0000307c] [2019-09-27 15:02:07,865] - 	gameUpdateHertz : 10
+  INFO root [0x0000307c] [2019-09-27 15:02:07,865] - 	defaultViewRadius : 80
+  INFO root [0x0000307c] [2019-09-27 15:02:07,865] - 	defaultViewHysteresisArea : 5
+  INFO root [0x0000307c] [2019-09-27 15:02:07,865] - 	entryScriptFile : kbemain
+  INFO root [0x0000307c] [2019-09-27 15:02:07,865] - 	internalTcpAddr : 192.168.0.175:64196
+  INFO root [0x0000307c] [2019-09-27 15:02:07,865] - 	componentID : 8003
+  WARN root [0x0000307c] [2019-09-27 15:02:08,206] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20803, errorno=10048
+  INFO root [0x0000307c] [2019-09-27 15:02:08,209] - ---- cellapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 14:22:22 Sep 18 2019. AppID: 8003. UID: 999. PID: 8024 ----
+  INFO root [0x0000307c] [2019-09-27 15:02:08,209] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [0x0000307c] [2019-09-27 15:02:08,209] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000307c] [2019-09-27 15:02:08,210] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x0000307c] [2019-09-27 15:02:08,400] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x0000307c] [2019-09-27 15:02:08,400] - Script::install(): KBExtra is successfully!
+ ERROR root [0x0000307c] [2019-09-27 15:02:08,408] - TiXmlNode::openXML: D:/Work/Svr/KBEngine_Bate/server_assets/scripts/entity_defs/Avatar.def, error!
+ ERROR root [0x0000307c] [2019-09-27 15:02:08,408] - app::initialize(): initialization failed!
+ DEBUG root [0x0000307c] [2019-09-27 15:02:08,408] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x0000307c] [2019-09-27 15:02:08,408] - Witness::destroyObjPool(): size 0.
+  INFO root [0x0000307c] [2019-09-27 15:02:08,414] - Script::uninstall(): is successfully!
+ DEBUG root [0x0000307c] [2019-09-27 15:02:08,414] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x0000307c] [2019-09-27 15:02:08,715] - ThreadPool::destroy(): waiting for thread(2)[0xbe0b8,0xbd760,], try=1
+ DEBUG root [0x0000307c] [2019-09-27 15:02:09,117] - TPThread::~TPThread(): 0xbe0b8
+ DEBUG root [0x0000307c] [2019-09-27 15:02:09,117] - TPThread::~TPThread(): 0xbd760
+ DEBUG root [0x0000307c] [2019-09-27 15:02:09,117] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x0000307c] [2019-09-27 15:02:09,117] - Bundle::destroyObjPool(): size 2.
+ DEBUG root [0x0000307c] [2019-09-27 15:02:09,117] - Channel::destroyObjPool(): size 0.
+ DEBUG root [0x0000307c] [2019-09-27 15:02:09,117] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x0000307c] [2019-09-27 15:02:09,118] - UDPPacket::destroyObjPool(): size 15.
+ DEBUG root [0x0000307c] [2019-09-27 15:02:09,118] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x0000307c] [2019-09-27 15:02:09,118] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x0000307c] [2019-09-27 15:02:09,118] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x0000307c] [2019-09-27 15:02:09,118] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x0000307c] [2019-09-27 15:02:15,620] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x00001ab8] [2019-09-27 15:02:22,423] - 
+  INFO root [0x00001ab8] [2019-09-27 15:02:22,424] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001ab8] [2019-09-27 15:02:22,425] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [0x00001ab8] [2019-09-27 15:02:22,425] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [0x00001ab8] [2019-09-27 15:02:22,425] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [0x00001ab8] [2019-09-27 15:02:22,438] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:64221 )
+  INFO root [0x00001ab8] [2019-09-27 15:02:22,438] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:64221, SOMAXCONN=511.
+  INFO root [0x00001ab8] [2019-09-27 15:02:22,439] - server-configs:
+  INFO root [0x00001ab8] [2019-09-27 15:02:22,439] - 	gameUpdateHertz : 10
+  INFO root [0x00001ab8] [2019-09-27 15:02:22,439] - 	defaultViewRadius : 80
+  INFO root [0x00001ab8] [2019-09-27 15:02:22,439] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00001ab8] [2019-09-27 15:02:22,439] - 	entryScriptFile : kbemain
+  INFO root [0x00001ab8] [2019-09-27 15:02:22,439] - 	internalTcpAddr : 192.168.0.175:64221
+  INFO root [0x00001ab8] [2019-09-27 15:02:22,439] - 	componentID : 8003
+  INFO root [0x00001ab8] [2019-09-27 15:02:23,944] - ---- cellapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 14:22:22 Sep 18 2019. AppID: 8003. UID: 999. PID: 30540 ----
+  INFO root [0x00001ab8] [2019-09-27 15:02:23,945] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [0x00001ab8] [2019-09-27 15:02:23,945] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001ab8] [2019-09-27 15:02:23,945] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00001ab8] [2019-09-27 15:02:24,128] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00001ab8] [2019-09-27 15:02:24,128] - Script::install(): KBExtra is successfully!
+ ERROR root [0x00001ab8] [2019-09-27 15:02:24,133] - TiXmlNode::openXML: D:/Work/Svr/KBEngine_Bate/server_assets/scripts/entity_defs/Avatar.def, error!
+ ERROR root [0x00001ab8] [2019-09-27 15:02:24,133] - app::initialize(): initialization failed!
+ DEBUG root [0x00001ab8] [2019-09-27 15:02:24,134] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00001ab8] [2019-09-27 15:02:24,134] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00001ab8] [2019-09-27 15:02:24,138] - Script::uninstall(): is successfully!
+ DEBUG root [0x00001ab8] [2019-09-27 15:02:24,138] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00001ab8] [2019-09-27 15:02:24,439] - ThreadPool::destroy(): waiting for thread(2)[0x4ec3f8,0x4ec6d0,], try=1
+ DEBUG root [0x00001ab8] [2019-09-27 15:02:24,841] - TPThread::~TPThread(): 0x4ec3f8
+ DEBUG root [0x00001ab8] [2019-09-27 15:02:24,841] - TPThread::~TPThread(): 0x4ec6d0
+ DEBUG root [0x00001ab8] [2019-09-27 15:02:24,841] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00001ab8] [2019-09-27 15:02:24,841] - Bundle::destroyObjPool(): size 3.
+ DEBUG root [0x00001ab8] [2019-09-27 15:02:24,841] - Channel::destroyObjPool(): size 0.
+ DEBUG root [0x00001ab8] [2019-09-27 15:02:24,841] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00001ab8] [2019-09-27 15:02:24,842] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x00001ab8] [2019-09-27 15:02:24,842] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x00001ab8] [2019-09-27 15:02:24,842] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00001ab8] [2019-09-27 15:02:24,842] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00001ab8] [2019-09-27 15:02:24,842] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00001ab8] [2019-09-27 15:02:31,346] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x00003020] [2019-09-27 15:04:13,954] - 
+  INFO root [0x00003020] [2019-09-27 15:04:13,955] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00003020] [2019-09-27 15:04:13,956] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [0x00003020] [2019-09-27 15:04:13,956] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [0x00003020] [2019-09-27 15:04:13,956] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [0x00003020] [2019-09-27 15:04:13,974] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:64314 )
+  INFO root [0x00003020] [2019-09-27 15:04:13,974] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:64314, SOMAXCONN=511.
+  INFO root [0x00003020] [2019-09-27 15:04:13,974] - server-configs:
+  INFO root [0x00003020] [2019-09-27 15:04:13,974] - 	gameUpdateHertz : 10
+  INFO root [0x00003020] [2019-09-27 15:04:13,974] - 	defaultViewRadius : 80
+  INFO root [0x00003020] [2019-09-27 15:04:13,974] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00003020] [2019-09-27 15:04:13,974] - 	entryScriptFile : kbemain
+  INFO root [0x00003020] [2019-09-27 15:04:13,975] - 	internalTcpAddr : 192.168.0.175:64314
+  INFO root [0x00003020] [2019-09-27 15:04:13,975] - 	componentID : 8003
+  WARN root [0x00003020] [2019-09-27 15:04:14,314] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20642, errorno=10048
+  INFO root [0x00003020] [2019-09-27 15:04:14,317] - ---- cellapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 14:22:22 Sep 18 2019. AppID: 8003. UID: 999. PID: 33696 ----
+  INFO root [0x00003020] [2019-09-27 15:04:14,318] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [0x00003020] [2019-09-27 15:04:14,318] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00003020] [2019-09-27 15:04:14,318] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00003020] [2019-09-27 15:04:14,498] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00003020] [2019-09-27 15:04:14,498] - Script::install(): KBExtra is successfully!
+  INFO root [0x00003020] [2019-09-27 15:04:14,629] - TelnetServer server is running on port 50000
+  INFO root [0x00003020] [2019-09-27 15:04:14,934] - ---- cellapp is running ----
+ DEBUG root [0x00003020] [2019-09-27 15:04:14,934] - Components::process(): Request for the process of identity...
+  INFO root [0x00000838] [2019-09-27 15:04:28,816] - 
+  INFO root [0x00000838] [2019-09-27 15:04:28,816] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00000838] [2019-09-27 15:04:28,817] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [0x00000838] [2019-09-27 15:04:28,818] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [0x00000838] [2019-09-27 15:04:28,818] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [0x00000838] [2019-09-27 15:04:28,830] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:64348 )
+  INFO root [0x00000838] [2019-09-27 15:04:28,830] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:64348, SOMAXCONN=511.
+  INFO root [0x00000838] [2019-09-27 15:04:28,831] - server-configs:
+  INFO root [0x00000838] [2019-09-27 15:04:28,831] - 	gameUpdateHertz : 10
+  INFO root [0x00000838] [2019-09-27 15:04:28,831] - 	defaultViewRadius : 80
+  INFO root [0x00000838] [2019-09-27 15:04:28,831] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00000838] [2019-09-27 15:04:28,831] - 	entryScriptFile : kbemain
+  INFO root [0x00000838] [2019-09-27 15:04:28,831] - 	internalTcpAddr : 192.168.0.175:64348
+  INFO root [0x00000838] [2019-09-27 15:04:28,831] - 	componentID : 8003
+  WARN root [0x00000838] [2019-09-27 15:04:29,172] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20397, errorno=10048
+  INFO root [0x00000838] [2019-09-27 15:04:29,175] - ---- cellapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 14:22:22 Sep 18 2019. AppID: 8003. UID: 999. PID: 20552 ----
+  INFO root [0x00000838] [2019-09-27 15:04:29,176] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [0x00000838] [2019-09-27 15:04:29,176] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00000838] [2019-09-27 15:04:29,176] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00000838] [2019-09-27 15:04:29,366] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00000838] [2019-09-27 15:04:29,367] - Script::install(): KBExtra is successfully!
+ ERROR root [0x00000838] [2019-09-27 15:04:29,373] - TiXmlNode::openXML: D:/Work/Svr/KBEngine_Bate/server_assets/scripts/entity_defs/Room.def, error!
+ ERROR root [0x00000838] [2019-09-27 15:04:29,373] - app::initialize(): initialization failed!
+ DEBUG root [0x00000838] [2019-09-27 15:04:29,374] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00000838] [2019-09-27 15:04:29,374] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00000838] [2019-09-27 15:04:29,379] - Script::uninstall(): is successfully!
+ DEBUG root [0x00000838] [2019-09-27 15:04:29,379] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00000838] [2019-09-27 15:04:29,680] - ThreadPool::destroy(): waiting for thread(2)[0x5687c0,0x568ca0,], try=1
+ DEBUG root [0x00000838] [2019-09-27 15:04:30,082] - TPThread::~TPThread(): 0x5687c0
+ DEBUG root [0x00000838] [2019-09-27 15:04:30,082] - TPThread::~TPThread(): 0x568ca0
+ DEBUG root [0x00000838] [2019-09-27 15:04:30,082] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00000838] [2019-09-27 15:04:30,082] - Bundle::destroyObjPool(): size 2.
+ DEBUG root [0x00000838] [2019-09-27 15:04:30,082] - Channel::destroyObjPool(): size 0.
+ DEBUG root [0x00000838] [2019-09-27 15:04:30,082] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00000838] [2019-09-27 15:04:30,083] - UDPPacket::destroyObjPool(): size 15.
+ DEBUG root [0x00000838] [2019-09-27 15:04:30,083] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x00000838] [2019-09-27 15:04:30,083] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00000838] [2019-09-27 15:04:30,083] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00000838] [2019-09-27 15:04:30,083] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00000838] [2019-09-27 15:04:36,585] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x00001d00] [2019-09-27 15:05:12,284] - 
+  INFO root [0x00001d00] [2019-09-27 15:05:12,285] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001d00] [2019-09-27 15:05:12,286] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [0x00001d00] [2019-09-27 15:05:12,286] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [0x00001d00] [2019-09-27 15:05:12,286] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [0x00001d00] [2019-09-27 15:05:12,296] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:64397 )
+  INFO root [0x00001d00] [2019-09-27 15:05:12,297] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:64397, SOMAXCONN=511.
+  INFO root [0x00001d00] [2019-09-27 15:05:12,297] - server-configs:
+  INFO root [0x00001d00] [2019-09-27 15:05:12,297] - 	gameUpdateHertz : 10
+  INFO root [0x00001d00] [2019-09-27 15:05:12,297] - 	defaultViewRadius : 80
+  INFO root [0x00001d00] [2019-09-27 15:05:12,297] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00001d00] [2019-09-27 15:05:12,297] - 	entryScriptFile : kbemain
+  INFO root [0x00001d00] [2019-09-27 15:05:12,297] - 	internalTcpAddr : 192.168.0.175:64397
+  INFO root [0x00001d00] [2019-09-27 15:05:12,297] - 	componentID : 8003
+  INFO root [0x00001d00] [2019-09-27 15:05:13,802] - ---- cellapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 14:22:22 Sep 18 2019. AppID: 8003. UID: 999. PID: 20692 ----
+  INFO root [0x00001d00] [2019-09-27 15:05:13,802] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [0x00001d00] [2019-09-27 15:05:13,802] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001d00] [2019-09-27 15:05:13,803] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00001d00] [2019-09-27 15:05:13,992] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00001d00] [2019-09-27 15:05:13,992] - Script::install(): KBExtra is successfully!
+ ERROR root [0x00001d00] [2019-09-27 15:05:13,998] - TiXmlNode::openXML: D:/Work/Svr/KBEngine_Bate/server_assets/scripts/entity_defs/Avatar.def, error!
+ ERROR root [0x00001d00] [2019-09-27 15:05:13,999] - app::initialize(): initialization failed!
+ DEBUG root [0x00001d00] [2019-09-27 15:05:13,999] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00001d00] [2019-09-27 15:05:14,000] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00001d00] [2019-09-27 15:05:14,006] - Script::uninstall(): is successfully!
+ DEBUG root [0x00001d00] [2019-09-27 15:05:14,007] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00001d00] [2019-09-27 15:05:14,307] - ThreadPool::destroy(): waiting for thread(2)[0xad9aa8,0xad9908,], try=1
+ DEBUG root [0x00001d00] [2019-09-27 15:05:14,709] - TPThread::~TPThread(): 0xad9aa8
+ DEBUG root [0x00001d00] [2019-09-27 15:05:14,709] - TPThread::~TPThread(): 0xad9908
+ DEBUG root [0x00001d00] [2019-09-27 15:05:14,709] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00001d00] [2019-09-27 15:05:14,709] - Bundle::destroyObjPool(): size 3.
+ DEBUG root [0x00001d00] [2019-09-27 15:05:14,709] - Channel::destroyObjPool(): size 0.
+ DEBUG root [0x00001d00] [2019-09-27 15:05:14,709] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00001d00] [2019-09-27 15:05:14,709] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x00001d00] [2019-09-27 15:05:14,710] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x00001d00] [2019-09-27 15:05:14,710] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00001d00] [2019-09-27 15:05:14,710] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00001d00] [2019-09-27 15:05:14,710] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00001d00] [2019-09-27 15:05:21,212] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x0000346c] [2019-09-27 15:18:57,219] - 
+  INFO root [0x0000346c] [2019-09-27 15:18:57,220] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000346c] [2019-09-27 15:18:57,221] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [0x0000346c] [2019-09-27 15:18:57,221] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [0x0000346c] [2019-09-27 15:18:57,221] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [0x0000346c] [2019-09-27 15:18:57,238] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:65018 )
+  INFO root [0x0000346c] [2019-09-27 15:18:57,239] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:65018, SOMAXCONN=511.
+  INFO root [0x0000346c] [2019-09-27 15:18:57,239] - server-configs:
+  INFO root [0x0000346c] [2019-09-27 15:18:57,239] - 	gameUpdateHertz : 10
+  INFO root [0x0000346c] [2019-09-27 15:18:57,239] - 	defaultViewRadius : 80
+  INFO root [0x0000346c] [2019-09-27 15:18:57,239] - 	defaultViewHysteresisArea : 5
+  INFO root [0x0000346c] [2019-09-27 15:18:57,239] - 	entryScriptFile : kbemain
+  INFO root [0x0000346c] [2019-09-27 15:18:57,239] - 	internalTcpAddr : 192.168.0.175:65018
+  INFO root [0x0000346c] [2019-09-27 15:18:57,239] - 	componentID : 8003
+  WARN root [0x0000346c] [2019-09-27 15:18:57,579] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20429, errorno=10048
+  INFO root [0x0000346c] [2019-09-27 15:18:57,582] - ---- cellapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 14:22:22 Sep 18 2019. AppID: 8003. UID: 999. PID: 7632 ----
+  INFO root [0x0000346c] [2019-09-27 15:18:57,582] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [0x0000346c] [2019-09-27 15:18:57,583] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000346c] [2019-09-27 15:18:57,583] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x0000346c] [2019-09-27 15:18:57,776] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x0000346c] [2019-09-27 15:18:57,776] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x0000346c] [2019-09-27 15:18:57,861] - loaded entity-script:Avatar(2).
+ DEBUG root [0x0000346c] [2019-09-27 15:18:57,861] - loaded entity-script:Food(3).
+ DEBUG root [0x0000346c] [2019-09-27 15:18:57,861] - loaded entity-script:Room(4).
+  INFO root [0x0000346c] [2019-09-27 15:18:57,862] - TelnetServer server is running on port 50000
+  INFO root [0x0000346c] [2019-09-27 15:18:58,195] - ---- cellapp is running ----
+ DEBUG root [0x0000346c] [2019-09-27 15:18:58,196] - Components::process(): Request for the process of identity...
+  WARN root [0x0000346c] [2019-09-27 15:19:04,416] - EntityApp::checkTickPeriod: tick took 6220% (6.22 seconds)!
+  INFO root [0x0000346c] [2019-09-27 15:19:05,423] - Components::findComponents: find logger(1)...
+  INFO root [0x0000346c] [2019-09-27 15:19:05,437] - Components::findComponents: found logger, addr:192.168.0.175:65022
+  INFO root [0x0000346c] [2019-09-27 15:19:05,437] - Components::addComponent: reset orderLog, uid=999!
+  INFO root [0x0000346c] [2019-09-27 15:19:05,437] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000346c] [2019-09-27 15:19:05,439] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x0000346c] [2019-09-27 15:19:05,543] - Components::findComponents: found dbmgr, addr:192.168.0.175:65016
+  INFO root [0x0000346c] [2019-09-27 15:19:05,544] - Components::addComponent: reset orderLog, uid=999!
+  INFO root [0x0000346c] [2019-09-27 15:19:05,544] - Components::addComponent[dbmgr], uid=999, componentID=4001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000346c] [2019-09-27 15:19:05,544] - Components::findComponents: found dbmgr, addr:192.168.0.175:65016
+  WARN root [0x0000346c] [2019-09-27 15:19:06,545] - Forwarding logs to logger[192.168.0.175:65022/0/0/0]...
+ ERROR root [0x0000346c] [2019-09-27 15:28:54,129] - Components::removeComponentByChannel: logger : 2001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=7965462591716, lastReceivedTime=7965193699022, inactivityExceptionPeriod=599500064)
+   OFF root [0x0000346c] [2019-09-27 15:28:54,134] - The following logs sent to logger failed:
+  WARN root [0x0000346c] [2019-09-27 15:28:54,135] - ==> [2019-09-27 15:28:54 129] TCPPacketReceiver::processPendingEvents(192.168.0.175:65022): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000346c] [2019-09-27 15:28:54,135] - ==> [2019-09-27 15:28:54 130] Components::removeComponentByChannel: logger : 2001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=7965462591716, lastReceivedTime=7965193699022, inactivityExceptionPeriod=599500064)
+  WARN root [0x0000346c] [2019-09-27 15:28:54,223] - TCPPacketReceiver::processPendingEvents(192.168.0.175:65016): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000346c] [2019-09-27 15:28:54,223] - Components::removeComponentByChannel: dbmgr : 4001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=7965463541614, lastReceivedTime=7965193559195, inactivityExceptionPeriod=599500064)
+  INFO root [0x0000346c] [2019-09-27 15:28:54,231] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x0000346c] [2019-09-27 15:28:54,236] - Shutdowner::onShutdown: shutting down
+  INFO root [0x0000346c] [2019-09-27 15:28:54,236] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x0000346c] [2019-09-27 15:28:54,236] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x0000346c] [2019-09-27 15:28:54,236] - Witness::destroyObjPool(): size 0.
+  INFO root [0x0000346c] [2019-09-27 15:28:54,253] - Script::uninstall(): is successfully!
+ DEBUG root [0x0000346c] [2019-09-27 15:28:54,253] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x0000346c] [2019-09-27 15:28:54,555] - ThreadPool::destroy(): waiting for thread(2)[0x10db5d0,0x10db088,], try=1
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,557] - 
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,557] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,559] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,559] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,559] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,579] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:49211 )
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,579] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:49211, SOMAXCONN=511.
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,580] - server-configs:
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,580] - 	gameUpdateHertz : 10
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,580] - 	defaultViewRadius : 80
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,580] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,580] - 	entryScriptFile : kbemain
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,581] - 	internalTcpAddr : 192.168.0.175:49211
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,581] - 	componentID : 8003
+  WARN root [0x00005fa0] [2019-09-27 15:29:04,922] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20679, errorno=10048
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,926] - ---- cellapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 14:22:22 Sep 18 2019. AppID: 8003. UID: 999. PID: 33532 ----
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,926] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,926] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00005fa0] [2019-09-27 15:29:04,927] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00005fa0] [2019-09-27 15:29:05,115] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00005fa0] [2019-09-27 15:29:05,116] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00005fa0] [2019-09-27 15:29:05,330] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00005fa0] [2019-09-27 15:29:05,330] - loaded entity-script:Food(3).
+ DEBUG root [0x00005fa0] [2019-09-27 15:29:05,331] - loaded entity-script:Room(4).
+  INFO root [0x00005fa0] [2019-09-27 15:29:05,331] - TelnetServer server is running on port 50000
+  INFO root [0x00005fa0] [2019-09-27 15:29:05,668] - ---- cellapp is running ----
+ DEBUG root [0x00005fa0] [2019-09-27 15:29:05,669] - Components::process(): Request for the process of identity...
+  WARN root [0x00005fa0] [2019-09-27 15:29:11,902] - EntityApp::checkTickPeriod: tick took 6232% (6.23 seconds)!
+  WARN root [0x00005fa0] [2019-09-27 15:29:11,905] - TCPPacketReceiver::processPendingEvents(192.168.0.175:49232): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [0x00005fa0] [2019-09-27 15:29:12,961] - Components::findComponents: find logger(1)...
+  INFO root [0x00005fa0] [2019-09-27 15:29:12,985] - Components::findComponents: found logger, addr:192.168.0.175:49216
+  INFO root [0x00005fa0] [2019-09-27 15:29:12,985] - Components::addComponent: reset orderLog, uid=999!
+  INFO root [0x00005fa0] [2019-09-27 15:29:12,986] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00005fa0] [2019-09-27 15:29:12,987] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00005fa0] [2019-09-27 15:29:13,090] - Components::findComponents: found dbmgr, addr:192.168.0.175:49210
+  INFO root [0x00005fa0] [2019-09-27 15:29:13,090] - Components::addComponent: reset orderLog, uid=999!
+  INFO root [0x00005fa0] [2019-09-27 15:29:13,091] - Components::addComponent[dbmgr], uid=999, componentID=4001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00005fa0] [2019-09-27 15:29:13,097] - Components::findComponents: found dbmgr, addr:192.168.0.175:49210
+  WARN root [0x00005fa0] [2019-09-27 15:29:14,098] - Forwarding logs to logger[192.168.0.175:49216/0/0/0]...
+ ERROR root [0x00005fa0] [2019-09-27 17:17:09,056] - Components::removeComponentByChannel: logger : 2001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=8030411863509, lastReceivedTime=8030366370705, inactivityExceptionPeriod=599499873)
+   OFF root [0x00005fa0] [2019-09-27 17:17:09,070] - The following logs sent to logger failed:
+  WARN root [0x00005fa0] [2019-09-27 17:17:09,070] - ==> [2019-09-27 17:17:09 056] TCPPacketReceiver::processPendingEvents(192.168.0.175:49216): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00005fa0] [2019-09-27 17:17:09,071] - ==> [2019-09-27 17:17:09 057] Components::removeComponentByChannel: logger : 2001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=8030411863509, lastReceivedTime=8030366370705, inactivityExceptionPeriod=599499873)
+  WARN root [0x00005fa0] [2019-09-27 17:17:09,155] - TCPPacketReceiver::processPendingEvents(192.168.0.175:49210): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00005fa0] [2019-09-27 17:17:09,156] - Components::removeComponentByChannel: dbmgr : 4001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=8030412863049, lastReceivedTime=8030366469554, inactivityExceptionPeriod=599499873)
+  INFO root [0x00005fa0] [2019-09-27 17:17:09,171] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00005fa0] [2019-09-27 17:17:09,176] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00005fa0] [2019-09-27 17:17:09,178] - Spaces::destroySpace: 1.
+  INFO root [0x00005fa0] [2019-09-27 17:17:09,179] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00005fa0] [2019-09-27 17:17:09,179] - Room::~Room(): 2001
+ DEBUG root [0x00005fa0] [2019-09-27 17:17:09,180] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00005fa0] [2019-09-27 17:17:09,180] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00005fa0] [2019-09-27 17:17:09,207] - Script::uninstall(): is successfully!
+ DEBUG root [0x00005fa0] [2019-09-27 17:17:09,207] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00005fa0] [2019-09-27 17:17:09,508] - ThreadPool::destroy(): waiting for thread(2)[0x1ac0c8,0x1ab8a8,], try=1
+  INFO root [0x00007084] [2019-09-27 17:17:13,131] - 
+  INFO root [0x00007084] [2019-09-27 17:17:13,131] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00007084] [2019-09-27 17:17:13,133] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [0x00007084] [2019-09-27 17:17:13,133] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [0x00007084] [2019-09-27 17:17:13,133] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [0x00007084] [2019-09-27 17:17:13,147] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:58605 )
+  INFO root [0x00007084] [2019-09-27 17:17:13,147] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:58605, SOMAXCONN=511.
+  INFO root [0x00007084] [2019-09-27 17:17:13,147] - server-configs:
+  INFO root [0x00007084] [2019-09-27 17:17:13,147] - 	gameUpdateHertz : 10
+  INFO root [0x00007084] [2019-09-27 17:17:13,147] - 	defaultViewRadius : 80
+  INFO root [0x00007084] [2019-09-27 17:17:13,148] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00007084] [2019-09-27 17:17:13,148] - 	entryScriptFile : kbemain
+  INFO root [0x00007084] [2019-09-27 17:17:13,148] - 	internalTcpAddr : 192.168.0.175:58605
+  INFO root [0x00007084] [2019-09-27 17:17:13,148] - 	componentID : 8003
+  WARN root [0x00007084] [2019-09-27 17:17:13,489] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20700, errorno=10048
+  INFO root [0x00007084] [2019-09-27 17:17:13,492] - ---- cellapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 14:22:22 Sep 18 2019. AppID: 8003. UID: 999. PID: 13732 ----
+  INFO root [0x00007084] [2019-09-27 17:17:13,493] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [0x00007084] [2019-09-27 17:17:13,493] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00007084] [2019-09-27 17:17:13,493] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00007084] [2019-09-27 17:17:13,695] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00007084] [2019-09-27 17:17:13,695] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00007084] [2019-09-27 17:17:13,802] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00007084] [2019-09-27 17:17:13,802] - loaded entity-script:Food(3).
+ DEBUG root [0x00007084] [2019-09-27 17:17:13,802] - loaded entity-script:Room(4).
+  INFO root [0x00007084] [2019-09-27 17:17:13,803] - TelnetServer server is running on port 50000
+  INFO root [0x00007084] [2019-09-27 17:17:14,178] - ---- cellapp is running ----
+ DEBUG root [0x00007084] [2019-09-27 17:17:14,179] - Components::process(): Request for the process of identity...
+  WARN root [0x00007084] [2019-09-27 17:17:20,423] - EntityApp::checkTickPeriod: tick took 6243% (6.24 seconds)!
+  INFO root [0x00007084] [2019-09-27 17:17:21,479] - Components::findComponents: find logger(1)...
+  INFO root [0x00007084] [2019-09-27 17:17:21,509] - Components::findComponents: found logger, addr:192.168.0.175:58603
+  INFO root [0x00007084] [2019-09-27 17:17:21,509] - Components::addComponent: reset orderLog, uid=999!
+  INFO root [0x00007084] [2019-09-27 17:17:21,509] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00007084] [2019-09-27 17:17:21,510] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00007084] [2019-09-27 17:17:21,614] - Components::findComponents: found dbmgr, addr:192.168.0.175:58607
+  INFO root [0x00007084] [2019-09-27 17:17:21,615] - Components::addComponent: reset orderLog, uid=999!
+  INFO root [0x00007084] [2019-09-27 17:17:21,615] - Components::addComponent[dbmgr], uid=999, componentID=4001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00007084] [2019-09-27 17:17:21,615] - Components::findComponents: found dbmgr, addr:192.168.0.175:58607
+  WARN root [0x00007084] [2019-09-27 17:17:22,615] - EntityApp::checkTickPeriod: tick took 1235% (1.24 seconds)!
+  WARN root [0x00007084] [2019-09-27 17:17:22,615] - Forwarding logs to logger[192.168.0.175:58603/0/0/0]...
+ ERROR root [0x00007084] [2019-09-27 17:19:52,994] - Components::removeComponentByChannel: logger : 2001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=8032051243702, lastReceivedTime=8031952280849, inactivityExceptionPeriod=599500000)
+   OFF root [0x00007084] [2019-09-27 17:19:53,000] - The following logs sent to logger failed:
+  WARN root [0x00007084] [2019-09-27 17:19:53,000] - ==> [2019-09-27 17:19:52 994] TCPPacketReceiver::processPendingEvents(192.168.0.175:58603): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00007084] [2019-09-27 17:19:53,001] - ==> [2019-09-27 17:19:52 995] Components::removeComponentByChannel: logger : 2001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=8032051243702, lastReceivedTime=8031952280849, inactivityExceptionPeriod=599500000)
+  WARN root [0x00007084] [2019-09-27 17:19:53,088] - TCPPacketReceiver::processPendingEvents(192.168.0.175:58607): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00007084] [2019-09-27 17:19:53,089] - Components::removeComponentByChannel: dbmgr : 4001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=8032052194976, lastReceivedTime=8031952817737, inactivityExceptionPeriod=599500000)
+  INFO root [0x00007084] [2019-09-27 17:19:53,102] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00007084] [2019-09-27 17:19:53,106] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00007084] [2019-09-27 17:19:53,107] - Spaces::destroySpace: 1.
+  INFO root [0x00007084] [2019-09-27 17:19:53,107] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00007084] [2019-09-27 17:19:53,107] - Room::~Room(): 2001
+ DEBUG root [0x00007084] [2019-09-27 17:19:53,108] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00007084] [2019-09-27 17:19:53,108] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00007084] [2019-09-27 17:19:53,124] - Script::uninstall(): is successfully!
+ DEBUG root [0x00007084] [2019-09-27 17:19:53,124] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00007084] [2019-09-27 17:19:53,425] - ThreadPool::destroy(): waiting for thread(2)[0xee6f90,0xee6f28,], try=1
+  INFO root [0x00001aa0] [2019-09-27 17:20:00,770] - 
+  INFO root [0x00001aa0] [2019-09-27 17:20:00,771] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001aa0] [2019-09-27 17:20:00,772] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [0x00001aa0] [2019-09-27 17:20:00,773] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [0x00001aa0] [2019-09-27 17:20:00,773] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [0x00001aa0] [2019-09-27 17:20:00,785] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:58782 )
+  INFO root [0x00001aa0] [2019-09-27 17:20:00,786] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:58782, SOMAXCONN=511.
+  INFO root [0x00001aa0] [2019-09-27 17:20:00,786] - server-configs:
+  INFO root [0x00001aa0] [2019-09-27 17:20:00,786] - 	gameUpdateHertz : 10
+  INFO root [0x00001aa0] [2019-09-27 17:20:00,786] - 	defaultViewRadius : 80
+  INFO root [0x00001aa0] [2019-09-27 17:20:00,786] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00001aa0] [2019-09-27 17:20:00,786] - 	entryScriptFile : kbemain
+  INFO root [0x00001aa0] [2019-09-27 17:20:00,786] - 	internalTcpAddr : 192.168.0.175:58782
+  INFO root [0x00001aa0] [2019-09-27 17:20:00,786] - 	componentID : 8003
+  WARN root [0x00001aa0] [2019-09-27 17:20:01,128] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20854, errorno=10048
+  INFO root [0x00001aa0] [2019-09-27 17:20:01,131] - ---- cellapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 14:22:22 Sep 18 2019. AppID: 8003. UID: 999. PID: 17384 ----
+  INFO root [0x00001aa0] [2019-09-27 17:20:01,132] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [0x00001aa0] [2019-09-27 17:20:01,132] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001aa0] [2019-09-27 17:20:01,132] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00001aa0] [2019-09-27 17:20:01,321] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00001aa0] [2019-09-27 17:20:01,321] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00001aa0] [2019-09-27 17:20:01,424] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00001aa0] [2019-09-27 17:20:01,424] - loaded entity-script:Food(3).
+ DEBUG root [0x00001aa0] [2019-09-27 17:20:01,424] - loaded entity-script:Room(4).
+  INFO root [0x00001aa0] [2019-09-27 17:20:01,425] - TelnetServer server is running on port 50000
+  INFO root [0x00001aa0] [2019-09-27 17:20:01,731] - ---- cellapp is running ----
+ DEBUG root [0x00001aa0] [2019-09-27 17:20:01,731] - Components::process(): Request for the process of identity...
+  WARN root [0x00001aa0] [2019-09-27 17:20:07,999] - EntityApp::checkTickPeriod: tick took 6267% (6.27 seconds)!
+  INFO root [0x00001aa0] [2019-09-27 17:20:09,032] - Components::findComponents: find logger(1)...
+  INFO root [0x00001aa0] [2019-09-27 17:20:09,126] - Components::findComponents: found logger, addr:192.168.0.175:58786
+  INFO root [0x00001aa0] [2019-09-27 17:20:09,126] - Components::addComponent: reset orderLog, uid=999!
+  INFO root [0x00001aa0] [2019-09-27 17:20:09,126] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001aa0] [2019-09-27 17:20:09,127] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00001aa0] [2019-09-27 17:20:09,231] - Components::findComponents: found dbmgr, addr:192.168.0.175:58781
+  INFO root [0x00001aa0] [2019-09-27 17:20:09,231] - Components::addComponent: reset orderLog, uid=999!
+  INFO root [0x00001aa0] [2019-09-27 17:20:09,231] - Components::addComponent[dbmgr], uid=999, componentID=4001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001aa0] [2019-09-27 17:20:09,231] - Components::findComponents: found dbmgr, addr:192.168.0.175:58781
+  WARN root [0x00001aa0] [2019-09-27 17:20:10,232] - EntityApp::checkTickPeriod: tick took 1300% (1.30 seconds)!
+  WARN root [0x00001aa0] [2019-09-27 17:20:10,232] - Forwarding logs to logger[192.168.0.175:58786/0/0/0]...
+ ERROR root [0x00001aa0] [2019-09-27 17:24:21,929] - Components::removeComponentByChannel: logger : 2001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=8034740599813, lastReceivedTime=8034529265774, inactivityExceptionPeriod=599499873)
+   OFF root [0x00001aa0] [2019-09-27 17:24:21,934] - The following logs sent to logger failed:
+  WARN root [0x00001aa0] [2019-09-27 17:24:21,934] - ==> [2019-09-27 17:24:21 930] TCPPacketReceiver::processPendingEvents(192.168.0.175:58786): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001aa0] [2019-09-27 17:24:21,934] - ==> [2019-09-27 17:24:21 930] Components::removeComponentByChannel: logger : 2001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=8034740599813, lastReceivedTime=8034529265774, inactivityExceptionPeriod=599499873)
+  WARN root [0x00001aa0] [2019-09-27 17:24:22,029] - TCPPacketReceiver::processPendingEvents(192.168.0.175:58781): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001aa0] [2019-09-27 17:24:22,030] - Components::removeComponentByChannel: dbmgr : 4001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=8034741602429, lastReceivedTime=8034529116430, inactivityExceptionPeriod=599499873)
+  INFO root [0x00001aa0] [2019-09-27 17:24:22,040] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00001aa0] [2019-09-27 17:24:22,043] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00001aa0] [2019-09-27 17:24:22,045] - Spaces::destroySpace: 1.
+  INFO root [0x00001aa0] [2019-09-27 17:24:22,045] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00001aa0] [2019-09-27 17:24:22,045] - Room::~Room(): 2001
+ DEBUG root [0x00001aa0] [2019-09-27 17:24:22,045] - Avatar::~Avatar(): 2003
+ DEBUG root [0x00001aa0] [2019-09-27 17:24:22,046] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00001aa0] [2019-09-27 17:24:22,046] - Witness::destroyObjPool(): size 16.
+  INFO root [0x00001aa0] [2019-09-27 17:24:22,060] - Script::uninstall(): is successfully!
+ DEBUG root [0x00001aa0] [2019-09-27 17:24:22,061] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00001aa0] [2019-09-27 17:24:22,362] - ThreadPool::destroy(): waiting for thread(2)[0x236818,0x236130,], try=1
+  INFO root [0x000006e4] [2019-09-27 17:24:26,356] - 
+  INFO root [0x000006e4] [2019-09-27 17:24:26,356] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000006e4] [2019-09-27 17:24:26,358] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [0x000006e4] [2019-09-27 17:24:26,358] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+  INFO root [0x000006e4] [2019-09-27 17:24:26,358] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [0x000006e4] [2019-09-27 17:24:26,372] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:59078 )
+  INFO root [0x000006e4] [2019-09-27 17:24:26,372] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:59078, SOMAXCONN=511.
+  INFO root [0x000006e4] [2019-09-27 17:24:26,373] - server-configs:
+  INFO root [0x000006e4] [2019-09-27 17:24:26,373] - 	gameUpdateHertz : 10
+  INFO root [0x000006e4] [2019-09-27 17:24:26,373] - 	defaultViewRadius : 80
+  INFO root [0x000006e4] [2019-09-27 17:24:26,373] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000006e4] [2019-09-27 17:24:26,373] - 	entryScriptFile : kbemain
+  INFO root [0x000006e4] [2019-09-27 17:24:26,373] - 	internalTcpAddr : 192.168.0.175:59078
+  INFO root [0x000006e4] [2019-09-27 17:24:26,373] - 	componentID : 8003
+  INFO root [0x000006e4] [2019-09-27 17:24:27,879] - ---- cellapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 14:22:22 Sep 18 2019. AppID: 8003. UID: 999. PID: 31228 ----
+  INFO root [0x000006e4] [2019-09-27 17:24:27,879] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [0x000006e4] [2019-09-27 17:24:27,879] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000006e4] [2019-09-27 17:24:27,880] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000006e4] [2019-09-27 17:24:28,061] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000006e4] [2019-09-27 17:24:28,062] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000006e4] [2019-09-27 17:24:28,147] - loaded entity-script:Avatar(2).
+ DEBUG root [0x000006e4] [2019-09-27 17:24:28,148] - loaded entity-script:Food(3).
+ DEBUG root [0x000006e4] [2019-09-27 17:24:28,148] - loaded entity-script:Room(4).
+  INFO root [0x000006e4] [2019-09-27 17:24:28,148] - TelnetServer server is running on port 50000
+  INFO root [0x000006e4] [2019-09-27 17:24:28,523] - ---- cellapp is running ----
+ DEBUG root [0x000006e4] [2019-09-27 17:24:28,524] - Components::process(): Request for the process of identity...
+  WARN root [0x000006e4] [2019-09-27 17:24:34,782] - EntityApp::checkTickPeriod: tick took 6257% (6.26 seconds)!
+  INFO root [0x000006e4] [2019-09-27 17:24:35,824] - Components::findComponents: find logger(1)...
+  INFO root [0x000006e4] [2019-09-27 17:24:35,855] - Components::findComponents: found logger, addr:192.168.0.175:59082
+  INFO root [0x000006e4] [2019-09-27 17:24:35,855] - Components::addComponent: reset orderLog, uid=999!
+  INFO root [0x000006e4] [2019-09-27 17:24:35,856] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000006e4] [2019-09-27 17:24:35,857] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x000006e4] [2019-09-27 17:24:35,960] - Components::findComponents: found dbmgr, addr:192.168.0.175:59076
+  INFO root [0x000006e4] [2019-09-27 17:24:35,960] - Components::addComponent: reset orderLog, uid=999!
+  INFO root [0x000006e4] [2019-09-27 17:24:35,961] - Components::addComponent[dbmgr], uid=999, componentID=4001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000006e4] [2019-09-27 17:24:35,961] - Components::findComponents: found dbmgr, addr:192.168.0.175:59076
+  WARN root [0x000006e4] [2019-09-27 17:24:36,962] - EntityApp::checkTickPeriod: tick took 1238% (1.24 seconds)!
+  WARN root [0x000006e4] [2019-09-27 17:24:36,962] - Forwarding logs to logger[192.168.0.175:59082/0/0/0]...

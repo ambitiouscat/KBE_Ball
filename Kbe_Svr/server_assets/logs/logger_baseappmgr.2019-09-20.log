@@ -1,0 +1,93 @@
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:26:54 004] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:26:54 005] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:26:54 005] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:26:54 005] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:26:54 022] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:55568 )
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:26:54 023] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:55568, SOMAXCONN=511.
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:26:54 023] - server-configs:
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:26:54 023] - 	internalTcpAddr : 192.168.0.175:55568
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:26:54 023] - 	componentID : 5001
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:26:55 529] - ---- baseappmgr Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 14:21:21 Sep 18 2019. AppID: 5001. UID: 999. PID: 17132 ----
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:26:55 529] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:26:55 529] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:26:55 529] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:26:55 828] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 999 5001  [2019-09-20 09:26:55 829] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:03 071] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:03 105] - Components::findComponents: found logger, addr:192.168.0.175:55575
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:03 105] - Components::addComponent: reset orderLog, uid=999!
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:03 105] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:03 106] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:05 208] - Components::findComponents: find dbmgr(3)...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:07 230] - Components::findComponents: find dbmgr(4)...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:09 250] - Components::findComponents: find dbmgr(5)...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:57 206] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:57 207] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:57 208] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:57 208] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:57 222] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:55704 )
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:57 222] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:55704, SOMAXCONN=511.
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:57 222] - server-configs:
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:57 222] - 	internalTcpAddr : 192.168.0.175:55704
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:57 223] - 	componentID : 5001
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:58 727] - ---- baseappmgr Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 14:21:21 Sep 18 2019. AppID: 5001. UID: 999. PID: 5636 ----
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:58 728] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:58 728] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:58 728] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:27:59 033] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 999 5001  [2019-09-20 09:27:59 034] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:06 250] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:06 296] - Components::findComponents: found logger, addr:192.168.0.175:55702
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:06 296] - Components::addComponent: reset orderLog, uid=999!
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:06 296] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:06 297] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:08 409] - Components::findComponents: find dbmgr(3)...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:48 327] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:48 328] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:48 328] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:48 328] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:48 341] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:55869 )
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:48 341] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:55869, SOMAXCONN=511.
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:48 341] - server-configs:
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:48 341] - 	internalTcpAddr : 192.168.0.175:55869
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:48 342] - 	componentID : 5001
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:49 846] - ---- baseappmgr Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 14:21:21 Sep 18 2019. AppID: 5001. UID: 999. PID: 19392 ----
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:49 847] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:49 847] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:49 847] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:50 150] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 999 5001  [2019-09-20 09:28:50 151] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:57 408] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:57 504] - Components::findComponents: found logger, addr:192.168.0.175:55876
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:57 504] - Components::addComponent: reset orderLog, uid=999!
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:57 504] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:57 505] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:57 608] - Components::findComponents: found dbmgr, addr:192.168.0.175:55873
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:57 608] - Components::addComponent: reset orderLog, uid=999!
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:57 608] - Components::addComponent[dbmgr], uid=999, componentID=4001, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:57 609] - Components::findComponents: found dbmgr, addr:192.168.0.175:55873
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:59 628] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:59 651] - Components::findComponents: found cellappmgr, addr:192.168.0.175:55872
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:59 651] - Components::addComponent[cellappmgr], uid=999, componentID=6001, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:28:59 651] - Components::findComponents: found cellappmgr, addr:192.168.0.175:55872
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:29:01 708] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:29:01 728] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:29:01 729] - Components::process(): Found all the components!
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:29:01 932] - ServerApp::onRegisterNewApp: uid:999, username:ly_server_programer, componentType:loginapp, componentID:9003, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.175, intport:55877, extaddr:192.168.0.175, extport:20013,  from 192.168.0.175:55924/0/0/0.
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:29:01 932] - Components::addComponent[loginapp], uid=999, componentID=9003, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:29:03 157] - ServerApp::onRegisterNewApp: uid:999, username:ly_server_programer, componentType:cellappmgr, componentID:6001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.175, intport:55872, extaddr:nonsupport, extport:0,  from 192.168.0.175:55931/0/0/0.
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:29:03 266] - ServerApp::onRegisterNewApp: uid:999, username:ly_server_programer, componentType:cellapp, componentID:8003, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.175, intport:55874, extaddr:nonsupport, extport:0,  from 192.168.0.175:55933/0/0/0.
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:29:03 266] - Components::addComponent[cellapp], uid=999, componentID=8003, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:29:04 322] - ServerApp::onRegisterNewApp: uid:999, username:ly_server_programer, componentType:baseapp, componentID:7003, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.175, intport:55875, extaddr:192.168.0.175, extport:20015,  from 192.168.0.175:55937/0/0/0.
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:29:04 322] - Components::addComponent[baseapp], uid=999, componentID=7003, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:29:09 210] - Baseappmgr::onBaseappInitProgress: cid=7003, progress=1.
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:29:09 210] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 999 5001  [2019-09-20 09:29:58 817] - Baseappmgr::registerPendingAccountToBaseapp:1. allocBaseapp=7003, numEntities=0.
+    INFO baseappmgr-1 999 5001  [2019-09-20 09:30:01 729] - ServerApp::onChannelTimeOut: Channel 192.168.0.175:55872/0/0/0 timeout!
+   DEBUG baseappmgr-1 999 5001  [2019-09-20 09:31:12 976] - Baseappmgr::registerPendingAccountToBaseapp:cat. allocBaseapp=7003, numEntities=1.

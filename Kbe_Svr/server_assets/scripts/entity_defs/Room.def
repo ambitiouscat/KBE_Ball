@@ -1,0 +1,19 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	    <enterRoom>
+            <Arg>       ENTITYCALL      </Arg>
+            <Arg>       POSITION3D      </Arg>
+            <Arg>       DIRECTION3D     </Arg>
+	    </enterRoom>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

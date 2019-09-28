@@ -1,0 +1,566 @@
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 562] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 563] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 563] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 564] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 572] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:20015 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 572] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.175:20015, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 573] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:20005 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 573] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.0.175:20005, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 574] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:61683 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 574] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:61683, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 574] - server-configs:
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 574] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 574] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 574] - 	internalTcpAddr : 192.168.0.175:61683
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 575] - 	externalTcpAddr : 192.168.0.175:20015
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 575] - 	externalUdpAddr : 192.168.0.175:20005
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 575] - 	componentID : 7003
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 739] - Components::findLogger: found logger, addr:192.168.0.175:61641
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 740] - Components::addComponent: reset orderLog, uid=999!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 740] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 743] - ---- baseapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 14:21:43 Sep 18 2019. AppID: 7003. UID: 999. PID: 34740 ----
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 744] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 744] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 744] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 923] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:15 923] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 999 7003  [2019-09-26 17:36:16 090] - loaded entity-script:Account(1).
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:16 091] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:16 091] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:16 375] - ---- baseapp is running ----
+   DEBUG    baseapp-1 999 7003  [2019-09-26 17:36:16 375] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:36:22 570] - EntityApp::checkTickPeriod: tick took 6195% (6.20 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:23 664] - Components::findComponents: find dbmgr(1)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:36:24 712] - EntityApp::checkTickPeriod: tick took 1136% (1.14 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:25 764] - Components::findComponents: find dbmgr(2)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:36:26 831] - EntityApp::checkTickPeriod: tick took 1155% (1.15 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:27 864] - Components::findComponents: find dbmgr(3)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:36:28 953] - EntityApp::checkTickPeriod: tick took 1177% (1.18 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:29 964] - Components::findComponents: find dbmgr(4)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:36:31 019] - EntityApp::checkTickPeriod: tick took 1143% (1.14 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:32 064] - Components::findComponents: find dbmgr(5)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:36:32 400] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20958, errorno=10048
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:36:32 400] - EntityApp::checkTickPeriod: tick took 424% (0.42 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:37 910] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:37 910] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:37 911] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:37 911] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:37 926] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:20015 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:37 926] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.175:20015, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:37 927] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:20005 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:37 927] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.0.175:20005, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:37 928] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:61718 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:37 928] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:61718, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:37 928] - server-configs:
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:37 928] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:37 928] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:37 928] - 	internalTcpAddr : 192.168.0.175:61718
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:37 928] - 	externalTcpAddr : 192.168.0.175:20015
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:37 928] - 	externalUdpAddr : 192.168.0.175:20005
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:37 929] - 	componentID : 7003
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:39 580] - ---- baseapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 14:21:43 Sep 18 2019. AppID: 7003. UID: 999. PID: 7552 ----
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:39 581] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:39 581] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:39 581] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:39 762] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:39 762] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 999 7003  [2019-09-26 17:36:39 837] - loaded entity-script:Account(1).
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:39 837] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:39 838] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:40 173] - ---- baseapp is running ----
+   DEBUG    baseapp-1 999 7003  [2019-09-26 17:36:40 173] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:36:46 370] - EntityApp::checkTickPeriod: tick took 6196% (6.20 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:47 412] - Components::findComponents: find logger(1)...
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:47 510] - Components::findComponents: found logger, addr:192.168.0.175:61715
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:47 510] - Components::addComponent: reset orderLog, uid=999!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:47 510] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:47 511] - Components::findComponents: find dbmgr(2)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:36:48 613] - EntityApp::checkTickPeriod: tick took 1239% (1.24 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:49 673] - Components::findComponents: find dbmgr(3)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:36:50 736] - EntityApp::checkTickPeriod: tick took 1162% (1.16 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:51 773] - Components::findComponents: find dbmgr(4)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:36:52 857] - EntityApp::checkTickPeriod: tick took 1183% (1.18 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:53 873] - Components::findComponents: find dbmgr(5)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:36:54 881] - EntityApp::checkTickPeriod: tick took 1107% (1.11 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:55 911] - Components::findComponents: find dbmgr(6)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:36:57 001] - EntityApp::checkTickPeriod: tick took 1128% (1.13 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:36:58 011] - Components::findComponents: find dbmgr(7)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:36:59 026] - EntityApp::checkTickPeriod: tick took 1052% (1.05 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:37:00 073] - Components::findComponents: find dbmgr(8)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:37:01 148] - EntityApp::checkTickPeriod: tick took 1174% (1.17 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:37:02 173] - Components::findComponents: find dbmgr(9)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:37:02 510] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20977, errorno=10048
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:37:02 510] - EntityApp::checkTickPeriod: tick took 437% (0.44 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:37:03 512] - Components::findComponents: find dbmgr(10)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:37:04 578] - EntityApp::checkTickPeriod: tick took 1104% (1.10 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:05 821] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:05 822] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:05 822] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:05 822] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:05 834] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:20015 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:05 834] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.175:20015, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:05 835] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:20005 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:05 835] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.0.175:20005, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:05 836] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:61833 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:05 836] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:61833, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:05 836] - server-configs:
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:05 836] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:05 836] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:05 836] - 	internalTcpAddr : 192.168.0.175:61833
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:05 837] - 	externalTcpAddr : 192.168.0.175:20015
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:05 837] - 	externalUdpAddr : 192.168.0.175:20005
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:05 837] - 	componentID : 7003
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:06 385] - Components::findLogger: found logger, addr:192.168.0.175:61834
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:06 385] - Components::addComponent: reset orderLog, uid=999!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:06 385] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:06 389] - ---- baseapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 14:21:43 Sep 18 2019. AppID: 7003. UID: 999. PID: 752 ----
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:06 390] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:06 390] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:06 390] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:06 575] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:06 575] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 999 7003  [2019-09-26 17:38:06 651] - loaded entity-script:Account(1).
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:06 651] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:06 651] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:06 964] - ---- baseapp is running ----
+   DEBUG    baseapp-1 999 7003  [2019-09-26 17:38:06 964] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:13 162] - EntityApp::checkTickPeriod: tick took 6198% (6.20 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:14 224] - Components::findComponents: find dbmgr(1)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:15 323] - EntityApp::checkTickPeriod: tick took 1159% (1.16 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:16 323] - Components::findComponents: find dbmgr(2)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:17 357] - EntityApp::checkTickPeriod: tick took 1093% (1.09 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:18 364] - Components::findComponents: find dbmgr(3)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:19 375] - EntityApp::checkTickPeriod: tick took 1111% (1.11 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:20 423] - Components::findComponents: find dbmgr(4)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:21 495] - EntityApp::checkTickPeriod: tick took 1131% (1.13 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:22 524] - Components::findComponents: find dbmgr(5)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:23 614] - EntityApp::checkTickPeriod: tick took 1149% (1.15 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:24 624] - Components::findComponents: find dbmgr(6)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:25 633] - EntityApp::checkTickPeriod: tick took 1069% (1.07 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:26 651] - Components::findComponents: find dbmgr(7)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:27 655] - EntityApp::checkTickPeriod: tick took 1092% (1.09 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:28 663] - Components::findComponents: find dbmgr(8)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:29 675] - EntityApp::checkTickPeriod: tick took 1111% (1.11 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:30 723] - Components::findComponents: find dbmgr(9)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:31 799] - EntityApp::checkTickPeriod: tick took 1135% (1.13 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:32 824] - Components::findComponents: find dbmgr(10)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:33 919] - EntityApp::checkTickPeriod: tick took 1155% (1.15 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:34 924] - Components::findComponents: find dbmgr(11)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:35 947] - EntityApp::checkTickPeriod: tick took 1082% (1.08 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:36 963] - Components::findComponents: find dbmgr(12)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:37 966] - EntityApp::checkTickPeriod: tick took 1102% (1.10 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:39 023] - Components::findComponents: find dbmgr(13)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:40 088] - EntityApp::checkTickPeriod: tick took 1124% (1.12 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:41 123] - Components::findComponents: find dbmgr(14)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:42 214] - EntityApp::checkTickPeriod: tick took 1150% (1.15 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:43 223] - Components::findComponents: find dbmgr(15)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:44 235] - EntityApp::checkTickPeriod: tick took 1071% (1.07 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:38:45 264] - Components::findComponents: find dbmgr(16)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:46 355] - EntityApp::checkTickPeriod: tick took 1191% (1.19 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:47 364] - Components::findComponents: find dbmgr(17)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:48 379] - EntityApp::checkTickPeriod: tick took 1114% (1.11 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:49 423] - Components::findComponents: find dbmgr(18)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:50 503] - EntityApp::checkTickPeriod: tick took 1139% (1.14 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:51 522] - Components::findComponents: find dbmgr(19)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:52 527] - EntityApp::checkTickPeriod: tick took 1063% (1.06 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:53 564] - Components::findComponents: find dbmgr(20)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:54 652] - EntityApp::checkTickPeriod: tick took 1188% (1.19 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:55 663] - Components::findComponents: find dbmgr(21)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:56 673] - EntityApp::checkTickPeriod: tick took 1109% (1.11 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:57 723] - Components::findComponents: find dbmgr(22)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:58 796] - EntityApp::checkTickPeriod: tick took 1132% (1.13 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:38:59 823] - Components::findComponents: find dbmgr(23)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:00 928] - EntityApp::checkTickPeriod: tick took 1163% (1.16 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:01 963] - Components::findComponents: find dbmgr(24)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:03 050] - EntityApp::checkTickPeriod: tick took 1186% (1.19 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:04 064] - Components::findComponents: find dbmgr(25)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:05 077] - EntityApp::checkTickPeriod: tick took 1112% (1.11 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:06 122] - Components::findComponents: find dbmgr(26)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:07 201] - EntityApp::checkTickPeriod: tick took 1137% (1.14 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:08 222] - Components::findComponents: find dbmgr(27)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:09 324] - EntityApp::checkTickPeriod: tick took 1159% (1.16 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:10 363] - Components::findComponents: find dbmgr(28)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:11 451] - EntityApp::checkTickPeriod: tick took 1187% (1.19 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:12 464] - Components::findComponents: find dbmgr(29)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:13 472] - EntityApp::checkTickPeriod: tick took 1108% (1.11 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:14 522] - Components::findComponents: find dbmgr(30)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:15 591] - EntityApp::checkTickPeriod: tick took 1127% (1.13 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:16 622] - Components::findComponents: find dbmgr(31)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:17 712] - EntityApp::checkTickPeriod: tick took 1148% (1.15 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:18 722] - Components::findComponents: find dbmgr(32)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:19 732] - EntityApp::checkTickPeriod: tick took 1068% (1.07 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:20 764] - Components::findComponents: find dbmgr(33)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:21 860] - EntityApp::checkTickPeriod: tick took 1197% (1.20 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:22 863] - Components::findComponents: find dbmgr(34)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:23 880] - EntityApp::checkTickPeriod: tick took 1115% (1.12 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:24 923] - Components::findComponents: find dbmgr(35)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:26 001] - EntityApp::checkTickPeriod: tick took 1137% (1.14 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:27 022] - Components::findComponents: find dbmgr(36)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:28 120] - EntityApp::checkTickPeriod: tick took 1156% (1.16 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:29 122] - Components::findComponents: find dbmgr(37)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:30 146] - EntityApp::checkTickPeriod: tick took 1082% (1.08 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:31 163] - Components::findComponents: find dbmgr(38)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:32 166] - EntityApp::checkTickPeriod: tick took 1103% (1.10 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:33 223] - Components::findComponents: find dbmgr(39)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:34 297] - EntityApp::checkTickPeriod: tick took 1134% (1.13 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:35 322] - Components::findComponents: find dbmgr(40)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:36 329] - EntityApp::checkTickPeriod: tick took 1065% (1.07 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:37 363] - Components::findComponents: find dbmgr(41)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:38 455] - EntityApp::checkTickPeriod: tick took 1192% (1.19 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:39 463] - Components::findComponents: find dbmgr(42)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:40 475] - EntityApp::checkTickPeriod: tick took 1111% (1.11 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:41 522] - Components::findComponents: find dbmgr(43)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:42 599] - EntityApp::checkTickPeriod: tick took 1135% (1.13 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:43 622] - Components::findComponents: find dbmgr(44)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:44 720] - EntityApp::checkTickPeriod: tick took 1156% (1.16 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:45 722] - Components::findComponents: find dbmgr(45)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:46 739] - EntityApp::checkTickPeriod: tick took 1076% (1.08 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:47 763] - Components::findComponents: find dbmgr(46)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:48 861] - EntityApp::checkTickPeriod: tick took 1198% (1.20 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:49 863] - Components::findComponents: find dbmgr(47)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:50 880] - EntityApp::checkTickPeriod: tick took 1116% (1.12 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:51 922] - Components::findComponents: find dbmgr(48)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:53 006] - EntityApp::checkTickPeriod: tick took 1142% (1.14 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:54 023] - Components::findComponents: find dbmgr(49)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:55 130] - EntityApp::checkTickPeriod: tick took 1166% (1.17 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:56 163] - Components::findComponents: find dbmgr(50)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:57 255] - EntityApp::checkTickPeriod: tick took 1192% (1.19 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:58 263] - Components::findComponents: find dbmgr(51)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:39:59 274] - EntityApp::checkTickPeriod: tick took 1110% (1.11 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:03 935] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:03 936] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:03 937] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:03 937] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:03 954] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:20015 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:03 954] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.175:20015, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:03 955] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:20005 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:03 955] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.0.175:20005, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:03 956] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:62054 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:03 957] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:62054, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:03 957] - server-configs:
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:03 957] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:03 957] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:03 957] - 	internalTcpAddr : 192.168.0.175:62054
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:03 957] - 	externalTcpAddr : 192.168.0.175:20015
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:03 957] - 	externalUdpAddr : 192.168.0.175:20005
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:03 958] - 	componentID : 7003
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:05 609] - ---- baseapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 14:21:43 Sep 18 2019. AppID: 7003. UID: 999. PID: 988 ----
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:05 609] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:05 609] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:05 610] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:05 789] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:05 789] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 999 7003  [2019-09-26 17:41:05 873] - loaded entity-script:Account(1).
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:05 873] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:05 873] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:06 152] - ---- baseapp is running ----
+   DEBUG    baseapp-1 999 7003  [2019-09-26 17:41:06 152] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:41:12 346] - EntityApp::checkTickPeriod: tick took 6194% (6.19 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:13 353] - Components::findComponents: find logger(1)...
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:13 444] - Components::findComponents: found logger, addr:192.168.0.175:62055
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:13 444] - Components::addComponent: reset orderLog, uid=999!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:13 444] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:13 445] - Components::findComponents: find dbmgr(2)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:41:14 547] - EntityApp::checkTickPeriod: tick took 1294% (1.29 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:15 553] - Components::findComponents: find dbmgr(3)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:41:16 572] - EntityApp::checkTickPeriod: tick took 1120% (1.12 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 218] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 219] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 219] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 219] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 231] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:20015 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 231] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.175:20015, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 232] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:20005 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 232] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.0.175:20005, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 234] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:62091 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 234] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:62091, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 234] - server-configs:
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 234] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 234] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 234] - 	internalTcpAddr : 192.168.0.175:62091
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 235] - 	externalTcpAddr : 192.168.0.175:20015
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 235] - 	externalUdpAddr : 192.168.0.175:20005
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 235] - 	componentID : 7003
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 732] - Components::findLogger: found logger, addr:192.168.0.175:62084
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 732] - Components::addComponent: reset orderLog, uid=999!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 732] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 738] - ---- baseapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 14:21:43 Sep 18 2019. AppID: 7003. UID: 999. PID: 27628 ----
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 738] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 739] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 739] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 926] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:21 926] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 999 7003  [2019-09-26 17:41:22 006] - loaded entity-script:Account(1).
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:22 007] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:22 007] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:22 296] - ---- baseapp is running ----
+   DEBUG    baseapp-1 999 7003  [2019-09-26 17:41:22 296] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:41:28 488] - EntityApp::checkTickPeriod: tick took 6192% (6.19 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:29 521] - Components::findComponents: find dbmgr(1)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:41:30 573] - EntityApp::checkTickPeriod: tick took 1077% (1.08 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:31 596] - Components::findComponents: find dbmgr(2)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:41:31 935] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20060, errorno=10048
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:41:31 935] - EntityApp::checkTickPeriod: tick took 438% (0.44 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:32 996] - Components::findComponents: find dbmgr(3)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:41:34 006] - EntityApp::checkTickPeriod: tick took 1110% (1.11 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:38 685] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:38 685] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:38 686] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:38 686] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:38 699] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:20015 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:38 699] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.175:20015, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:38 700] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:20005 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:38 700] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.0.175:20005, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:38 702] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:62121 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:38 702] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:62121, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:38 702] - server-configs:
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:38 702] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:38 702] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:38 703] - 	internalTcpAddr : 192.168.0.175:62121
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:38 703] - 	externalTcpAddr : 192.168.0.175:20015
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:38 703] - 	externalUdpAddr : 192.168.0.175:20005
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:38 703] - 	componentID : 7003
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:40 350] - ---- baseapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 14:21:43 Sep 18 2019. AppID: 7003. UID: 999. PID: 9428 ----
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:40 350] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:40 351] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:40 351] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:40 534] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:40 534] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 999 7003  [2019-09-26 17:41:40 605] - loaded entity-script:Account(1).
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:40 605] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:40 605] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:40 886] - ---- baseapp is running ----
+   DEBUG    baseapp-1 999 7003  [2019-09-26 17:41:40 886] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:41:47 075] - EntityApp::checkTickPeriod: tick took 6188% (6.19 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:48 087] - Components::findComponents: find logger(1)...
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:48 128] - Components::findComponents: found logger, addr:192.168.0.175:62123
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:48 128] - Components::addComponent: reset orderLog, uid=999!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:48 128] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:48 129] - Components::findComponents: find dbmgr(2)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:41:49 231] - EntityApp::checkTickPeriod: tick took 1244% (1.24 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:50 286] - Components::findComponents: find dbmgr(3)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:41:51 351] - EntityApp::checkTickPeriod: tick took 1164% (1.16 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:52 387] - Components::findComponents: find dbmgr(4)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:41:53 470] - EntityApp::checkTickPeriod: tick took 1184% (1.18 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:54 486] - Components::findComponents: find dbmgr(5)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:41:55 490] - EntityApp::checkTickPeriod: tick took 1104% (1.10 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:56 586] - Components::findComponents: find dbmgr(6)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:41:57 609] - EntityApp::checkTickPeriod: tick took 1122% (1.12 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:41:58 686] - Components::findComponents: find dbmgr(7)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:41:59 730] - EntityApp::checkTickPeriod: tick took 1143% (1.14 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:42:00 787] - Components::findComponents: find dbmgr(8)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:01 850] - EntityApp::checkTickPeriod: tick took 1163% (1.16 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:42:02 886] - Components::findComponents: find dbmgr(9)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:03 971] - EntityApp::checkTickPeriod: tick took 1185% (1.18 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:42:04 986] - Components::findComponents: find dbmgr(10)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:05 990] - EntityApp::checkTickPeriod: tick took 1103% (1.10 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:42:07 086] - Components::findComponents: find dbmgr(11)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:08 111] - EntityApp::checkTickPeriod: tick took 1124% (1.12 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:42:09 186] - Components::findComponents: find dbmgr(12)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:10 236] - EntityApp::checkTickPeriod: tick took 1150% (1.15 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:42:11 286] - Components::findComponents: find dbmgr(13)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:12 354] - EntityApp::checkTickPeriod: tick took 1168% (1.17 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:42:13 386] - Components::findComponents: find dbmgr(14)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:14 474] - EntityApp::checkTickPeriod: tick took 1187% (1.19 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:42:15 486] - Components::findComponents: find dbmgr(15)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:16 494] - EntityApp::checkTickPeriod: tick took 1108% (1.11 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:42:17 586] - Components::findComponents: find dbmgr(16)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:18 623] - EntityApp::checkTickPeriod: tick took 1136% (1.14 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:19 686] - Components::findComponents: find dbmgr(17)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:20 743] - EntityApp::checkTickPeriod: tick took 1157% (1.16 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:21 786] - Components::findComponents: find dbmgr(18)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:22 869] - EntityApp::checkTickPeriod: tick took 1183% (1.18 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:23 887] - Components::findComponents: find dbmgr(19)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:24 228] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20000, errorno=10048
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:24 228] - EntityApp::checkTickPeriod: tick took 442% (0.44 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:25 286] - Components::findComponents: find dbmgr(20)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:26 304] - EntityApp::checkTickPeriod: tick took 1118% (1.12 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:27 386] - Components::findComponents: find dbmgr(21)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:28 425] - EntityApp::checkTickPeriod: tick took 1138% (1.14 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:29 485] - Components::findComponents: find dbmgr(22)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:30 544] - EntityApp::checkTickPeriod: tick took 1158% (1.16 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:31 586] - Components::findComponents: find dbmgr(23)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:32 670] - EntityApp::checkTickPeriod: tick took 1184% (1.18 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:33 686] - Components::findComponents: find dbmgr(24)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:34 689] - EntityApp::checkTickPeriod: tick took 1103% (1.10 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:35 786] - Components::findComponents: find dbmgr(25)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:36 812] - EntityApp::checkTickPeriod: tick took 1126% (1.13 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:37 886] - Components::findComponents: find dbmgr(26)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:38 941] - EntityApp::checkTickPeriod: tick took 1155% (1.15 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:39 986] - Components::findComponents: find dbmgr(27)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:41 060] - EntityApp::checkTickPeriod: tick took 1174% (1.17 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:42 085] - Components::findComponents: find dbmgr(28)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:43 182] - EntityApp::checkTickPeriod: tick took 1196% (1.20 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:44 186] - Components::findComponents: find dbmgr(29)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:45 204] - EntityApp::checkTickPeriod: tick took 1118% (1.12 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:46 286] - Components::findComponents: find dbmgr(30)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:47 323] - EntityApp::checkTickPeriod: tick took 1137% (1.14 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:48 386] - Components::findComponents: find dbmgr(31)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:49 448] - EntityApp::checkTickPeriod: tick took 1161% (1.16 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:50 486] - Components::findComponents: find dbmgr(32)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:51 572] - EntityApp::checkTickPeriod: tick took 1186% (1.19 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:52 585] - Components::findComponents: find dbmgr(33)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:53 592] - EntityApp::checkTickPeriod: tick took 1106% (1.11 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:54 605] - Components::findComponents: find dbmgr(34)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:55 612] - EntityApp::checkTickPeriod: tick took 1025% (1.02 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:56 686] - Components::findComponents: find dbmgr(35)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:57 738] - EntityApp::checkTickPeriod: tick took 1152% (1.15 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:58 786] - Components::findComponents: find dbmgr(36)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:42:59 858] - EntityApp::checkTickPeriod: tick took 1173% (1.17 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:00 885] - Components::findComponents: find dbmgr(37)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:01 981] - EntityApp::checkTickPeriod: tick took 1195% (1.20 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:02 985] - Components::findComponents: find dbmgr(38)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:04 001] - EntityApp::checkTickPeriod: tick took 1115% (1.12 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:05 086] - Components::findComponents: find dbmgr(39)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:06 123] - EntityApp::checkTickPeriod: tick took 1138% (1.14 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:07 186] - Components::findComponents: find dbmgr(40)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:08 251] - EntityApp::checkTickPeriod: tick took 1165% (1.16 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:09 286] - Components::findComponents: find dbmgr(41)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:10 371] - EntityApp::checkTickPeriod: tick took 1185% (1.18 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:11 385] - Components::findComponents: find dbmgr(42)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:12 390] - EntityApp::checkTickPeriod: tick took 1104% (1.10 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:13 486] - Components::findComponents: find dbmgr(43)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:14 509] - EntityApp::checkTickPeriod: tick took 1123% (1.12 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:15 585] - Components::findComponents: find dbmgr(44)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:16 633] - EntityApp::checkTickPeriod: tick took 1148% (1.15 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:17 686] - Components::findComponents: find dbmgr(45)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:18 762] - EntityApp::checkTickPeriod: tick took 1176% (1.18 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:19 785] - Components::findComponents: find dbmgr(46)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:20 889] - EntityApp::checkTickPeriod: tick took 1203% (1.20 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:21 986] - Components::findComponents: find dbmgr(47)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:23 011] - EntityApp::checkTickPeriod: tick took 1125% (1.13 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:24 086] - Components::findComponents: find dbmgr(48)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:25 129] - EntityApp::checkTickPeriod: tick took 1143% (1.14 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:26 185] - Components::findComponents: find dbmgr(49)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:27 251] - EntityApp::checkTickPeriod: tick took 1165% (1.16 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:28 285] - Components::findComponents: find dbmgr(50)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:29 370] - EntityApp::checkTickPeriod: tick took 1184% (1.18 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:30 386] - Components::findComponents: find dbmgr(51)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:31 391] - EntityApp::checkTickPeriod: tick took 1105% (1.11 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:32 485] - Components::findComponents: find dbmgr(52)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:33 511] - EntityApp::checkTickPeriod: tick took 1126% (1.13 seconds)!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:34 585] - Components::findComponents: find dbmgr(53)...
+delay time is too long, please check the dbmgr logs!
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:35 635] - EntityApp::checkTickPeriod: tick took 1149% (1.15 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:48 047] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:48 048] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:48 048] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/Svr/KBEngine_Bate/server_assets/;D:/Work/Svr/KBEngine_Bate/server_assets/scripts/;D:/Work/Svr/KBEngine_Bate/server_assets/res/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:48 048] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:48 061] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:20015 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:48 061] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.175:20015, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:48 063] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:20005 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:48 063] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.0.175:20005, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:48 064] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:62341 )
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:48 065] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:62341, SOMAXCONN=511.
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:48 065] - server-configs:
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:48 065] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:48 065] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:48 065] - 	internalTcpAddr : 192.168.0.175:62341
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:48 065] - 	externalTcpAddr : 192.168.0.175:20015
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:48 066] - 	externalUdpAddr : 192.168.0.175:20005
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:48 066] - 	componentID : 7003
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:49 741] - ---- baseapp Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 14:21:43 Sep 18 2019. AppID: 7003. UID: 999. PID: 16644 ----
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:49 742] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:49 742] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:49 742] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:49 927] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 18 2019, 14:20:04) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:49 928] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 999 7003  [2019-09-26 17:43:50 006] - loaded entity-script:Account(1).
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:50 006] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:50 007] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:50 313] - ---- baseapp is running ----
+   DEBUG    baseapp-1 999 7003  [2019-09-26 17:43:50 313] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:56 503] - EntityApp::checkTickPeriod: tick took 6190% (6.19 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:57 513] - Components::findComponents: find logger(1)...
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:57 531] - Components::findComponents: found logger, addr:192.168.0.175:62339
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:57 532] - Components::addComponent: reset orderLog, uid=999!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:57 532] - Components::addComponent[logger], uid=999, componentID=2001, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:57 533] - Components::findComponents: find dbmgr(2)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:43:58 635] - EntityApp::checkTickPeriod: tick took 1221% (1.22 seconds)!
+    INFO    baseapp-1 999 7003  [2019-09-26 17:43:59 649] - Components::findComponents: find dbmgr(3)...
+ WARNING    baseapp-1 999 7003  [2019-09-26 17:44:00 659] - EntityApp::checkTickPeriod: tick took 1046% (1.05 seconds)!

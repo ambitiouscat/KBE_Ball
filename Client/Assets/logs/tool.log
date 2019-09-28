@@ -1,0 +1,28 @@
+  INFO root [2019-09-27 17:14:26,951] - 
+  INFO root [2019-09-27 17:14:26,951] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-27 17:14:26,951] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [2019-09-27 17:14:26,952] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/UnityProject/KBE_Demo/Assets/;D:/Work/UnityProject/KBE_Demo/Assets/scripts/;D:/Work/UnityProject/KBE_Demo/Assets/res/
+  INFO root [2019-09-27 17:14:26,952] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [2019-09-27 17:14:26,961] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:58452 )
+  INFO root [2019-09-27 17:14:26,961] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:58452, SOMAXCONN=511.
+  INFO root [2019-09-27 17:14:26,964] - ---- tool Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: FE85F7FD42D0B29E2716D782BDB47B65. Config: Debug X86. Built: 14:20:56 Sep 18 2019. AppID: 18446744073709551615. UID: 999. PID: 28972 ----
+  INFO root [2019-09-27 17:14:26,965] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [2019-09-27 17:14:26,965] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-27 17:14:26,965] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   OFF root [2019-09-27 17:14:27,066] - assertion failed: false && "PythonApp::installPyScript: KBE_RES_PATH error!\n", file d:\work\svr\kbengine_bate\kbe\src\lib\server\python_app.cpp, line 151, at: KBEngine::PythonApp::installPyScript
+  INFO root [2019-09-27 17:14:40,766] - 
+  INFO root [2019-09-27 17:14:40,767] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-27 17:14:40,767] - Resmgr::initialize: KBE_ROOT=D:/Work/Svr/KBEngine_Bate/
+  INFO root [2019-09-27 17:14:40,767] - Resmgr::initialize: KBE_RES_PATH=D:/Work/Svr/KBEngine_Bate/kbe/res/;D:/Work/UnityProject/KBE_Demo/Assets/;D:/Work/UnityProject/KBE_Demo/Assets/scripts/;D:/Work/UnityProject/KBE_Demo/Assets/res/
+  INFO root [2019-09-27 17:14:40,767] - Resmgr::initialize: KBE_BIN_PATH=D:/Work/Svr/KBEngine_Bate/kbe/bin/server/
+  INFO root [2019-09-27 17:14:40,776] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.175 ( 192.168.0.175:58465 )
+  INFO root [2019-09-27 17:14:40,776] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.175:58465, SOMAXCONN=511.
+  INFO root [2019-09-27 17:14:40,779] - ---- tool Version: 2.5.7. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: FE85F7FD42D0B29E2716D782BDB47B65. Config: Debug X86. Built: 14:20:56 Sep 18 2019. AppID: 18446744073709551615. UID: 999. PID: 10124 ----
+  INFO root [2019-09-27 17:14:40,779] - Server ly_server_programer: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz with 2097151kB RAM
+  INFO root [2019-09-27 17:14:40,780] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-27 17:14:40,780] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   OFF root [2019-09-27 17:14:40,880] - assertion failed: false && "PythonApp::installPyScript: KBE_RES_PATH error!\n", file d:\work\svr\kbengine_bate\kbe\src\lib\server\python_app.cpp, line 151, at: KBEngine::PythonApp::installPyScript
