@@ -291,6 +291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 159104468}
   - component: {fileID: 159104467}
+  - component: {fileID: 159104469}
   m_Layer: 0
   m_Name: KBEClientApp
   m_TagString: Untagged
@@ -316,7 +317,7 @@ MonoBehaviour:
   clientType: 7
   networkEncryptType: 0
   syncPlayerMS: 100
-  threadUpdateHZ: 20
+  threadUpdateHZ: 60
   serverHeartbeatTick: 60
   TCP_SEND_BUFFER_MAX: 1460
   TCP_RECV_BUFFER_MAX: 1460
@@ -339,6 +340,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &159104469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 159104466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744ac2bfd2ee15240a0b3e7c32cf51d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AvatarPrefab: {fileID: 1276045086145394, guid: 74fe798123712494fa8a8ca52b4e3ba3,
+    type: 2}
+  m_FoodPrefab: {fileID: 1512114880346868, guid: b6385f0c660b78d4ab84773f2d5a64d2,
+    type: 2}
 --- !u!1 &168717184
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,11 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using KBEngine;
 
-public class Avatar : Entity {
+public class Avatar : AvatarBase {
+
+    public void RegisterEvent()
+    {
+        if (isPlayer())
+            KBEngine.Event.registerIn("updatePlayer", this, "updatePlayer");
+    }
 
     public override void __init__()
     {
         base.__init__();
+        RegisterEvent();
         Debug.Log("Avatar Init ....");
     }
 
@@ -20,6 +27,23 @@ public class Avatar : Entity {
     public override void onEnterWorld()
     {
         base.onEnterWorld();
-        Debug.Log("Avatar onEnterWorld ....");
+        Debug.Log("Avatar onEnterWorld .... isPlayer() = " + isPlayer() + this.id);
+        if (isPlayer())
+        {
+            KBEngine.Event.fireOut("onSelfAvatarEnterWorld",this);
+        }
+        else
+        {
+            KBEngine.Event.fireOut("onOtherAvatarEnterWorld", this);
+        }
+    }
+
+    public virtual void updatePlayer(float x,float y, float z, float yaw)
+    {
+        position.x = x;
+        position.y = y;
+        position.z = z;
+
+        direction.z = yaw;
     }
 }

@@ -53,7 +53,7 @@ public class ClientLogin : MonoBehaviour {
 
     public void onCreateAccountResult(UInt16 retcode, byte[] datas)
     {
-        print("ClientLogin::onCreateAccountResult ..... code = " + retcode + "datas = " + datas);
+        print("ClientLogin::onCreateAccountResult ..... code = " + retcode + "datas = " + KBEngine.ServerErrorDescrs.serverErrs[retcode]);
     }
 
     public void onLoginFailed(UInt16 retcode)
