@@ -15,8 +15,8 @@ def randomPosition2D(radius):
 
 
 def randomPosition3D():
-    return Math.Vector3(random.randint(0, GameConfigs.GAME_MAP_SIZE) + random.random(), 0.0,
-                        random.randint(0, GameConfigs.GAME_MAP_SIZE) + random.random())
+    return Math.Vector3(random.randint(0, GameConfigs.TEST_RAND) + random.random(), 0.0,
+                        random.randint(0, GameConfigs.TEST_RAND) + random.random())
 
 
 # 玩家体重转换为移动速度

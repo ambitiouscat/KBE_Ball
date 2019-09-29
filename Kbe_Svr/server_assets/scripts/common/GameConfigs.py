@@ -30,6 +30,9 @@ BOTS_UPDATE_TIME = 0.3
 # 地图大小(米)
 GAME_MAP_SIZE = 200
 
+#
+TEST_RAND = 5
+
 # 地图最大粮食数量
 MAP_FOOD_MAX = 3000
 

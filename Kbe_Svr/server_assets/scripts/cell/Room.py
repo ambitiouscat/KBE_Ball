@@ -7,5 +7,6 @@ class Room(KBEngine.Entity):
     def __init__(self):
         KBEngine.Entity.__init__(self);
         INFO_MSG("Cell Room init ...");
-        pos = GameUtils.randomPosition3d();
-        KBEngine.createEntity("Food",self.spaceID,pos)
+        for i in range(20):
+            pos = GameUtils.randomPosition3D();
+            KBEngine.createEntity("Food",self.spaceID,pos,(0.0,0.0,0.0),{});
