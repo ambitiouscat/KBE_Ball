@@ -38,6 +38,12 @@ public class Avatar : AvatarBase {
         }
     }
 
+    public override void onMoveSpeedChanged(float oldValue)
+    {
+        base.onMoveSpeedChanged(oldValue);
+        KBEngine.Event.fireOut("onMoveSpeedChanged",this);
+    }
+
     public virtual void updatePlayer(float x,float y, float z, float yaw)
     {
         position.x = x;

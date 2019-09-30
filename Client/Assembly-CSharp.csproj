@@ -112,6 +112,7 @@
     <Compile Include="Assets\Scripts\Entity\Account.cs" />
     <Compile Include="Assets\Scripts\Entity\Avatar.cs" />
     <Compile Include="Assets\Scripts\Entity\Food.cs" />
+    <Compile Include="Assets\Scripts\FoodView.cs" />
     <Compile Include="Assets\Scripts\World.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Work/UnityProject/KBE_Ball/Client/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

@@ -170,7 +170,68 @@ namespace KBEngine
 
 			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(spaceID / 40002).");
 
+			Property pAvatar_GatherEnergy = new Property();
+			pAvatar_GatherEnergy.name = "GatherEnergy";
+			pAvatar_GatherEnergy.properUtype = 2;
+			pAvatar_GatherEnergy.properFlags = 4;
+			pAvatar_GatherEnergy.aliasID = 4;
+			UInt32 Avatar_GatherEnergy_defval;
+			UInt32.TryParse("0", out Avatar_GatherEnergy_defval);
+			pAvatar_GatherEnergy.defaultVal = Avatar_GatherEnergy_defval;
+			pAvatarModule.propertys["GatherEnergy"] = pAvatar_GatherEnergy; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_GatherEnergy.aliasID] = pAvatar_GatherEnergy;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(GatherEnergy / 2).");
+
+			Property pAvatar_IsRun = new Property();
+			pAvatar_IsRun.name = "IsRun";
+			pAvatar_IsRun.properUtype = 3;
+			pAvatar_IsRun.properFlags = 4;
+			pAvatar_IsRun.aliasID = 5;
+			Byte Avatar_IsRun_defval;
+			Byte.TryParse("0", out Avatar_IsRun_defval);
+			pAvatar_IsRun.defaultVal = Avatar_IsRun_defval;
+			pAvatarModule.propertys["IsRun"] = pAvatar_IsRun; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_IsRun.aliasID] = pAvatar_IsRun;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(IsRun / 3).");
+
+			Property pAvatar_MoveSpeed = new Property();
+			pAvatar_MoveSpeed.name = "MoveSpeed";
+			pAvatar_MoveSpeed.properUtype = 1;
+			pAvatar_MoveSpeed.properFlags = 4;
+			pAvatar_MoveSpeed.aliasID = 6;
+			float Avatar_MoveSpeed_defval;
+			float.TryParse("0", out Avatar_MoveSpeed_defval);
+			pAvatar_MoveSpeed.defaultVal = Avatar_MoveSpeed_defval;
+			pAvatarModule.propertys["MoveSpeed"] = pAvatar_MoveSpeed; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_MoveSpeed.aliasID] = pAvatar_MoveSpeed;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(MoveSpeed / 1).");
+
 			pAvatarModule.useMethodDescrAlias = true;
+			List<DATATYPE_BASE> pAvatar_SetRun_args = new List<DATATYPE_BASE>();
+			pAvatar_SetRun_args.Add(EntityDef.id2datatypes[2]);
+
+			Method pAvatar_SetRun = new Method();
+			pAvatar_SetRun.name = "SetRun";
+			pAvatar_SetRun.methodUtype = 1;
+			pAvatar_SetRun.aliasID = -1;
+			pAvatar_SetRun.args = pAvatar_SetRun_args;
+
+			pAvatarModule.methods["SetRun"] = pAvatar_SetRun; 
+			pAvatarModule.cell_methods["SetRun"] = pAvatar_SetRun;
+
+			pAvatarModule.idcell_methods[pAvatar_SetRun.methodUtype] = pAvatar_SetRun;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), method(SetRun / 1).");
+
 			ScriptModule pFoodModule = new ScriptModule("Food");
 			EntityDef.moduledefs["Food"] = pFoodModule;
 			EntityDef.idmoduledefs[3] = pFoodModule;

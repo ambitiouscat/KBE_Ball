@@ -351,7 +351,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 744ac2bfd2ee15240a0b3e7c32cf51d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AvatarPrefab: {fileID: 1276045086145394, guid: 74fe798123712494fa8a8ca52b4e3ba3,
+  m_AvatarPrefab: {fileID: 1020858108683516, guid: 0fb4a58e3bb065f4f85fbf56bfaf4cb1,
+    type: 2}
+  m_AvatarMainPrefab: {fileID: 1853772783212474, guid: 724f4888a5ada554ea01e2344ede5b5f,
     type: 2}
   m_FoodPrefab: {fileID: 1512114880346868, guid: b6385f0c660b78d4ab84773f2d5a64d2,
     type: 2}
