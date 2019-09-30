@@ -89,6 +89,42 @@ void AvatarBase::onUpdatePropertys(MemoryStream& stream)
 
 		switch(pProp->properUtype)
 		{
+			case 2:
+			{
+				uint32 oldval_GatherEnergy = GatherEnergy;
+				GatherEnergy = stream.readUint32();
+
+				if(pProp->isBase())
+				{
+					if(inited())
+						onGatherEnergyChanged(oldval_GatherEnergy);
+				}
+				else
+				{
+					if(inWorld())
+						onGatherEnergyChanged(oldval_GatherEnergy);
+				}
+
+				break;
+			}
+			case 1:
+			{
+				float oldval_MoveSpeed = MoveSpeed;
+				MoveSpeed = stream.readFloat();
+
+				if(pProp->isBase())
+				{
+					if(inited())
+						onMoveSpeedChanged(oldval_MoveSpeed);
+				}
+				else
+				{
+					if(inWorld())
+						onMoveSpeedChanged(oldval_MoveSpeed);
+				}
+
+				break;
+			}
 			case 40001:
 			{
 				FVector oldval_direction = direction;
@@ -141,6 +177,48 @@ void AvatarBase::callPropertysSetMethods()
 	ScriptModule* sm = EntityDef::moduledefs["Avatar"];
 	TMap<uint16, Property*>& pdatas = sm->idpropertys;
 
+	uint32 oldval_GatherEnergy = GatherEnergy;
+	Property* pProp_GatherEnergy = pdatas[4];
+	if(pProp_GatherEnergy->isBase())
+	{
+		if(inited() && !inWorld())
+			onGatherEnergyChanged(oldval_GatherEnergy);
+	}
+	else
+	{
+		if(inWorld())
+		{
+			if(pProp_GatherEnergy->isOwnerOnly() && !isPlayer())
+			{
+			}
+			else
+			{
+				onGatherEnergyChanged(oldval_GatherEnergy);
+			}
+		}
+	}
+
+	float oldval_MoveSpeed = MoveSpeed;
+	Property* pProp_MoveSpeed = pdatas[5];
+	if(pProp_MoveSpeed->isBase())
+	{
+		if(inited() && !inWorld())
+			onMoveSpeedChanged(oldval_MoveSpeed);
+	}
+	else
+	{
+		if(inWorld())
+		{
+			if(pProp_MoveSpeed->isOwnerOnly() && !isPlayer())
+			{
+			}
+			else
+			{
+				onMoveSpeedChanged(oldval_MoveSpeed);
+			}
+		}
+	}
+
 	FVector oldval_direction = direction;
 	Property* pProp_direction = pdatas[2];
 	if(pProp_direction->isBase())
@@ -188,7 +266,9 @@ void AvatarBase::callPropertysSetMethods()
 AvatarBase::AvatarBase():
 	Entity(),
 	pBaseEntityCall(NULL),
-	pCellEntityCall(NULL)
+	pCellEntityCall(NULL),
+	GatherEnergy((uint32)FCString::Atoi64(TEXT("0"))),
+	MoveSpeed(FCString::Atof(TEXT("1")))
 {
 }
 

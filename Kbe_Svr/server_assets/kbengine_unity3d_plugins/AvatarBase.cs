@@ -19,6 +19,12 @@ namespace KBEngine
 		public EntityBaseEntityCall_AvatarBase baseEntityCall = null;
 		public EntityCellEntityCall_AvatarBase cellEntityCall = null;
 
+		public UInt32 GatherEnergy = 0;
+		public virtual void onGatherEnergyChanged(UInt32 oldValue) {}
+		public Byte IsRun = 0;
+		public virtual void onIsRunChanged(Byte oldValue) {}
+		public float MoveSpeed = 0f;
+		public virtual void onMoveSpeedChanged(float oldValue) {}
 
 
 		public AvatarBase()
@@ -159,6 +165,54 @@ namespace KBEngine
 
 				switch(prop.properUtype)
 				{
+					case 2:
+						UInt32 oldval_GatherEnergy = GatherEnergy;
+						GatherEnergy = stream.readUint32();
+
+						if(prop.isBase())
+						{
+							if(inited)
+								onGatherEnergyChanged(oldval_GatherEnergy);
+						}
+						else
+						{
+							if(inWorld)
+								onGatherEnergyChanged(oldval_GatherEnergy);
+						}
+
+						break;
+					case 3:
+						Byte oldval_IsRun = IsRun;
+						IsRun = stream.readUint8();
+
+						if(prop.isBase())
+						{
+							if(inited)
+								onIsRunChanged(oldval_IsRun);
+						}
+						else
+						{
+							if(inWorld)
+								onIsRunChanged(oldval_IsRun);
+						}
+
+						break;
+					case 1:
+						float oldval_MoveSpeed = MoveSpeed;
+						MoveSpeed = stream.readFloat();
+
+						if(prop.isBase())
+						{
+							if(inited)
+								onMoveSpeedChanged(oldval_MoveSpeed);
+						}
+						else
+						{
+							if(inWorld)
+								onMoveSpeedChanged(oldval_MoveSpeed);
+						}
+
+						break;
 					case 40001:
 						Vector3 oldval_direction = direction;
 						direction = stream.readVector3();
@@ -204,6 +258,69 @@ namespace KBEngine
 		{
 			ScriptModule sm = EntityDef.moduledefs["Avatar"];
 			Dictionary<UInt16, Property> pdatas = sm.idpropertys;
+
+			UInt32 oldval_GatherEnergy = GatherEnergy;
+			Property prop_GatherEnergy = pdatas[4];
+			if(prop_GatherEnergy.isBase())
+			{
+				if(inited && !inWorld)
+					onGatherEnergyChanged(oldval_GatherEnergy);
+			}
+			else
+			{
+				if(inWorld)
+				{
+					if(prop_GatherEnergy.isOwnerOnly() && !isPlayer())
+					{
+					}
+					else
+					{
+						onGatherEnergyChanged(oldval_GatherEnergy);
+					}
+				}
+			}
+
+			Byte oldval_IsRun = IsRun;
+			Property prop_IsRun = pdatas[5];
+			if(prop_IsRun.isBase())
+			{
+				if(inited && !inWorld)
+					onIsRunChanged(oldval_IsRun);
+			}
+			else
+			{
+				if(inWorld)
+				{
+					if(prop_IsRun.isOwnerOnly() && !isPlayer())
+					{
+					}
+					else
+					{
+						onIsRunChanged(oldval_IsRun);
+					}
+				}
+			}
+
+			float oldval_MoveSpeed = MoveSpeed;
+			Property prop_MoveSpeed = pdatas[6];
+			if(prop_MoveSpeed.isBase())
+			{
+				if(inited && !inWorld)
+					onMoveSpeedChanged(oldval_MoveSpeed);
+			}
+			else
+			{
+				if(inWorld)
+				{
+					if(prop_MoveSpeed.isOwnerOnly() && !isPlayer())
+					{
+					}
+					else
+					{
+						onMoveSpeedChanged(oldval_MoveSpeed);
+					}
+				}
+			}
 
 			Vector3 oldval_direction = direction;
 			Property prop_direction = pdatas[2];

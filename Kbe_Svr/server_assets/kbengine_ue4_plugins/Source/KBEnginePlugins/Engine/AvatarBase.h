@@ -26,6 +26,10 @@ public:
 	EntityBaseEntityCall_AvatarBase* pBaseEntityCall;
 	EntityCellEntityCall_AvatarBase* pCellEntityCall;
 
+	uint32 GatherEnergy;
+	virtual void onGatherEnergyChanged(uint32 oldValue) {}
+	float MoveSpeed;
+	virtual void onMoveSpeedChanged(float oldValue) {}
 
 
 	void onComponentsEnterworld() override;

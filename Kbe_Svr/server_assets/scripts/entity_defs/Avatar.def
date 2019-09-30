@@ -1,5 +1,22 @@
 <root>
 	<Properties>
+		<MoveSpeed>
+			<Type>		FLOAT 			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0				</Default>
+		</MoveSpeed>
+
+		<GatherEnergy>
+			<Type>		UINT32 			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0				</Default>
+		</GatherEnergy>
+
+		<IsRun>
+			<Type>		UINT8 			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0				</Default>
+		</IsRun>
 	</Properties>
 
 	<ClientMethods>
@@ -12,6 +29,10 @@
 	</BaseMethods>
 
 	<CellMethods>
+	    <SetRun>
+			<Exposed/>
+            <Arg>       UINT8      </Arg>
+	    </SetRun>
 	</CellMethods>
 
 </root>

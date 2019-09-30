@@ -31,7 +31,7 @@ BOTS_UPDATE_TIME = 0.3
 GAME_MAP_SIZE = 200
 
 #
-TEST_RAND = 5
+TEST_RAND = 20
 
 # 地图最大粮食数量
 MAP_FOOD_MAX = 3000
@@ -41,4 +41,5 @@ FIRE_FOOD_MAX = 20
 
 # 地图最大粉碎者（病毒）数量
 SMASH_MAX = 100
+
 

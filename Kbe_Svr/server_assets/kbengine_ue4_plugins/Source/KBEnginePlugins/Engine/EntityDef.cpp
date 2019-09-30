@@ -206,6 +206,34 @@ void EntityDef::initScriptModules()
 
 	//DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(spaceID / 40002).");
 
+	Property* pAvatar_GatherEnergy = new Property();
+	pAvatar_GatherEnergy->name = TEXT("GatherEnergy");
+	pAvatar_GatherEnergy->properUtype = 2;
+	pAvatar_GatherEnergy->properFlags = 4;
+	pAvatar_GatherEnergy->aliasID = 4;
+	KBVar* pAvatar_GatherEnergy_defval = new KBVar((uint32)FCString::Atoi64(TEXT("0")));
+	pAvatar_GatherEnergy->pDefaultVal = pAvatar_GatherEnergy_defval;
+	pAvatarModule->propertys.Add(TEXT("GatherEnergy"), pAvatar_GatherEnergy); 
+
+	pAvatarModule->usePropertyDescrAlias = true;
+	pAvatarModule->idpropertys.Add((uint16)pAvatar_GatherEnergy->aliasID, pAvatar_GatherEnergy);
+
+	//DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(GatherEnergy / 2).");
+
+	Property* pAvatar_MoveSpeed = new Property();
+	pAvatar_MoveSpeed->name = TEXT("MoveSpeed");
+	pAvatar_MoveSpeed->properUtype = 1;
+	pAvatar_MoveSpeed->properFlags = 4;
+	pAvatar_MoveSpeed->aliasID = 5;
+	KBVar* pAvatar_MoveSpeed_defval = new KBVar(FCString::Atof(TEXT("1")));
+	pAvatar_MoveSpeed->pDefaultVal = pAvatar_MoveSpeed_defval;
+	pAvatarModule->propertys.Add(TEXT("MoveSpeed"), pAvatar_MoveSpeed); 
+
+	pAvatarModule->usePropertyDescrAlias = true;
+	pAvatarModule->idpropertys.Add((uint16)pAvatar_MoveSpeed->aliasID, pAvatar_MoveSpeed);
+
+	//DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(MoveSpeed / 1).");
+
 	pAvatarModule->useMethodDescrAlias = true;
 	ScriptModule* pFoodModule = new ScriptModule("Food", 3);
 	EntityDef::moduledefs.Add(TEXT("Food"), pFoodModule);
