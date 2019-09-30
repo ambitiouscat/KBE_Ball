@@ -1,5 +1,0 @@
- ERROR root [2019-09-28 04:24:27,963] - DBInterfaceMysql::processException: Thread 0x45fd8f0 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
- ERROR root [2019-09-28 05:24:27,835] - DBInterfaceMysql::processException: Thread 0x51b0068 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
- ERROR root [2019-09-28 06:24:27,791] - DBInterfaceMysql::processException: Thread 0x51b3720 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
- ERROR root [2019-09-28 07:24:27,746] - DBInterfaceMysql::processException: Thread 0x4601ac8 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
- ERROR root [2019-09-28 08:24:27,701] - DBInterfaceMysql::processException: Thread 0x51bd9d8 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
